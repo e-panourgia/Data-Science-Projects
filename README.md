@@ -24,6 +24,6 @@ This Repository conatins coode related to the competition hosted on [Competition
 
 | Input       | Jupyter Notebook      | Output     |
 |----------------|----------------|----------------|
-| data/data_augmented__nlp_incidents_train.csv  | data_exploration.ipynb | reports/ |
+| data/data_augmented__nlp_incidents_train.csv  | training_process.ipynb | reports/ |
 
 Note: The folder `reports` cotanins the analytical classifcagion report per label and the overall valculated maro avarage f1 score per label (hazard, product, hazard-cateory, product-category).
