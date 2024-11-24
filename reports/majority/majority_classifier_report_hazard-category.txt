@@ -1,0 +1,17 @@
+Classification Report for Majority Classifier (hazard-category):
+                                precision    recall  f1-score   support
+
+                     allergens       0.31      1.00      0.47       845
+                    biological       0.00      0.00      0.00       802
+                      chemical       0.00      0.00      0.00       342
+food additives and flavourings       0.00      0.00      0.00        14
+                foreign bodies       0.00      0.00      0.00       246
+                         fraud       0.00      0.00      0.00       263
+                     migration       0.00      0.00      0.00        27
+          organoleptic aspects       0.00      0.00      0.00        35
+                  other hazard       0.00      0.00      0.00       109
+              packaging defect       0.00      0.00      0.00        37
+
+                      accuracy                           0.31      2720
+                     macro avg       0.03      0.10      0.05      2720
+                  weighted avg       0.10      0.31      0.15      2720

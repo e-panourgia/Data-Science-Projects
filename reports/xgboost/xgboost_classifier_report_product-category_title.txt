@@ -1,0 +1,30 @@
+Classification Report for product-category_title:
+                                                   precision    recall  f1-score   support
+
+                              alcoholic beverages       1.00      0.58      0.73        38
+                      cereals and bakery products       0.66      0.56      0.60       252
+     cocoa and cocoa preparations, coffee and tea       0.66      0.62      0.64        99
+                                    confectionery       0.89      0.43      0.58        91
+dietetic foods, food supplements, fortified foods       0.80      0.71      0.75        95
+                                    fats and oils       1.00      0.69      0.81        32
+                                   feed materials       0.91      0.91      0.91        11
+                   food additives and flavourings       1.00      0.60      0.75        10
+                           food contact materials       0.94      0.89      0.91        35
+                            fruits and vegetables       0.63      0.65      0.64       335
+                                 herbs and spices       0.80      0.51      0.62       116
+                            honey and royal jelly       1.00      0.53      0.70        15
+                                ices and desserts       0.98      0.73      0.84        63
+                     meat, egg and dairy products       0.57      0.93      0.70       719
+                          non-alcoholic beverages       0.86      0.55      0.67       107
+                     nuts, nut products and seeds       0.75      0.51      0.61       120
+                       other food product / mixed       1.00      0.55      0.71        47
+                                         pet feed       0.88      0.44      0.58        16
+                       prepared dishes and snacks       0.59      0.39      0.47       212
+                                          seafood       0.86      0.61      0.71       155
+             soups, broths, sauces and condiments       0.82      0.56      0.67       135
+                                sugars and syrups       1.00      0.82      0.90        17
+
+                                         accuracy                           0.67      2720
+                                        macro avg       0.84      0.63      0.70      2720
+                                     weighted avg       0.71      0.67      0.66      2720
+F1 Score: 0.705

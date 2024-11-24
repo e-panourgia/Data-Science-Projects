@@ -1,0 +1,921 @@
+Classification Report for Majority Classifier (product):
+                                                                        precision    recall  f1-score   support
+
+                                                Catfishes (freshwater)       0.00      0.00      0.00         1
+                                                       Dried pork meat       0.00      0.00      0.00         2
+                                                 Fishes not identified       0.00      0.00      0.00        11
+                                                    Groupers (generic)       0.00      0.00      0.00         1
+                                              Not classified pork meat       0.00      0.00      0.00         3
+                                            Pangas catfishes (generic)       0.00      0.00      0.00         1
+                                   Precooked cooked pork meat products       0.00      0.00      0.00         8
+                                    Torpedo-shaped catfishes (generic)       0.00      0.00      0.00         3
+                                                       adobo seasoning       0.00      0.00      0.00         3
+                                                    after dinner mints       0.00      0.00      0.00         1
+                                                   alcoholic beverages       0.00      0.00      0.00         6
+                                                       alfalfa sprouts       0.00      0.00      0.00         1
+                                                                 algae       0.00      0.00      0.00         3
+                                                              allspice       0.00      0.00      0.00         2
+                                                        almond kernels       0.00      0.00      0.00         1
+                                                           almond milk       0.00      0.00      0.00         4
+                                                         almond powder       0.00      0.00      0.00         1
+                                                       almond products       0.00      0.00      0.00         2
+                                                               almonds       0.00      0.00      0.00         1
+                                                              amaranth       0.00      0.00      0.00         4
+                                                      anchovies in oil       0.00      0.00      0.00         2
+                                                         anchovy paste       0.00      0.00      0.00         2
+                                                            angus beef       0.00      0.00      0.00         1
+                                                    animal by-products       0.00      0.00      0.00         4
+                                                            appetizers       0.00      0.00      0.00         2
+                                                            apple cake       0.00      0.00      0.00         1
+                                                           apple juice       0.00      0.00      0.00         4
+                                                                apples       0.00      0.00      0.00         2
+                                                       apricot kernels       0.00      0.00      0.00         6
+                                                              apricots       0.00      0.00      0.00         3
+                                                             asparagus       0.00      0.00      0.00         3
+                                         assorted bread roll selection       0.00      0.00      0.00         1
+                                       assortment of filled chocolates       0.00      0.00      0.00         1
+                                                             baby food       0.00      0.00      0.00         2
+                                                     baby food pouches       0.00      0.00      0.00         4
+                                                            baby foods       0.00      0.00      0.00         5
+                                                          baby spinach       0.00      0.00      0.00         2
+                                                             baguettes       0.00      0.00      0.00         1
+                                                       bakery products       0.00      0.00      0.00         2
+                                                            baking mix       0.00      0.00      0.00         1
+                                                               baklava       0.00      0.00      0.00         1
+                                                              balsamic       0.00      0.00      0.00         2
+                                                                bamboo       0.00      0.00      0.00         2
+                                                         bamboo shoots       0.00      0.00      0.00         2
+                                                               bananas       0.00      0.00      0.00         2
+                                                                  bars       0.00      0.00      0.00         3
+                                                                 basil       0.00      0.00      0.00         3
+                                                     basil pesto sauce       0.00      0.00      0.00         4
+                                                            batter mix       0.00      0.00      0.00         3
+                                                            bean sauce       0.00      0.00      0.00         2
+                                                            bean snack       0.00      0.00      0.00         2
+                                                          bean sprouts       0.00      0.00      0.00         1
+                                                                  beef       0.00      0.00      0.00         8
+                                                          beef burrito       0.00      0.00      0.00         1
+                                                             beef meat       0.00      0.00      0.00         2
+                                                         beef products       0.00      0.00      0.00         5
+                                                           beef stewed       0.00      0.00      0.00         1
+                                                           beef tallow       0.00      0.00      0.00         4
+                                                  beef tenderloin cuts       0.00      0.00      0.00         1
+                                                           beef tongue       0.00      0.00      0.00         1
+                                                        beef trimmings       0.00      0.00      0.00         1
+                                                                  beer       0.00      0.00      0.00        14
+                                                             beetroots       0.00      0.00      0.00         5
+                                                              beverage       0.00      0.00      0.00         1
+                             beverage base of non-fruit origin, liquid       0.00      0.00      0.00         2
+                            bilberry extract used in a food supplement       0.00      0.00      0.00         1
+                                                           biscuit mix       0.00      0.00      0.00         6
+                                                              biscuits       0.00      0.00      0.00         8
+                                                bitter apricot kernels       0.00      0.00      0.00         3
+                                                          black caviar       0.00      0.00      0.00         1
+                                                          black pepper       0.00      0.00      0.00         2
+                                        blackcurrant drink concentrate       0.00      0.00      0.00         3
+                                              bloody mary beverage mix       0.00      0.00      0.00         1
+                                                           blue cheese       0.00      0.00      0.00         5
+                                                      blue poppy seeds       0.00      0.00      0.00         2
+                                                           blueberries       0.00      0.00      0.00         5
+                                                                  boar       0.00      0.00      0.00         2
+                                   boletus mushrooms, stems and pieces       0.00      0.00      0.00         5
+                                                       bolognese sauce       0.00      0.00      0.00         1
+                                                         bottled water       0.00      0.00      0.00         7
+                                                            bovine fat       0.00      0.00      0.00         4
+                                                 bovine meat and offal       0.00      0.00      0.00         2
+                                                           brazil nuts       0.00      0.00      0.00         3
+                                                                 bread       0.00      0.00      0.00         6
+                                           bread and products therefor       0.00      0.00      0.00         1
+                                                           bread crumb       0.00      0.00      0.00         1
+                                                             bread mix       0.00      0.00      0.00         2
+                                                     breakfast cereals       0.00      0.00      0.00         4
+                               breakfast cereals and products therefor       0.00      0.00      0.00         4
+                                                           brie cheese       0.00      0.00      0.00         2
+                                                               brioche       0.00      0.00      0.00         2
+                                                              broccoli       0.00      0.00      0.00         3
+                                                          broccoli mix       0.00      0.00      0.00         3
+                                                                broths       0.00      0.00      0.00         4
+                                                       brown mushrooms       0.00      0.00      0.00         1
+                                                            brown rice       0.00      0.00      0.00         4
+                                                              brownies       0.00      0.00      0.00         3
+                                                       brussel sprouts       0.00      0.00      0.00         5
+                                        buffalo milk mozzarella cheese       0.00      0.00      0.00         2
+                                                                  buns       0.00      0.00      0.00         2
+                                                burrito (ready to eat)       0.00      0.00      0.00         1
+                                                                butter       0.00      0.00      0.00         2
+                                                               cabbage       0.00      0.00      0.00         3
+                                                       cake decoration       0.00      0.00      0.00         2
+                                                                 cakes       0.00      0.00      0.00        20
+                                                             camembert       0.00      0.00      0.00         4
+                                                               candies       0.00      0.00      0.00        13
+                                               canned artichoke hearts       0.00      0.00      0.00         2
+                                                        canned chicken       0.00      0.00      0.00         3
+                                                           canned corn       0.00      0.00      0.00         1
+                                             canned crab meat in brine       0.00      0.00      0.00         1
+                                                  canned fish products       0.00      0.00      0.00         1
+                                                      canned meat stew       0.00      0.00      0.00         2
+                                                        canned spinach       0.00      0.00      0.00         3
+                                                    cantaloupe (fresh)       0.00      0.00      0.00         2
+                                                         caramel bites       0.00      0.00      0.00         1
+                                                     carbonated  water       0.00      0.00      0.00         1
+                                                   carbonated beverage       0.00      0.00      0.00         4
+                                            carbonated/sparkling water       0.00      0.00      0.00         2
+                                                     carcasses of veal       0.00      0.00      0.00         2
+                                                        cardamom seeds       0.00      0.00      0.00         2
+                                                        cardamon seeds       0.00      0.00      0.00         5
+                                    carps, barbels and other cyprinids       0.00      0.00      0.00         4
+                                                                cashew       0.00      0.00      0.00         1
+        cattle from which the milk was used to produce raw milk cheese       0.00      0.00      0.00         5
+                                                           cauliflower       0.00      0.00      0.00         1
+                                                          cbd products       0.00      0.00      0.00         4
+                                                                cereal       0.00      0.00      0.00         1
+                                                           cereal bars       0.00      0.00      0.00         5
+                                            cereal bars with chocolate       0.00      0.00      0.00         4
+                                                          cereal drink       0.00      0.00      0.00         1
+                                           cereals and bakery products       0.00      0.00      0.00         2
+                                                        cheddar cheese       0.00      0.00      0.00         2
+                                                                cheese       0.00      0.00      0.00        12
+                                            cheese (taleggio capriolo)       0.00      0.00      0.00         5
+                                           cheese - made from raw milk       0.00      0.00      0.00         4
+                                                       cheese - melted       0.00      0.00      0.00         1
+                                                        cheese burgers       0.00      0.00      0.00         2
+                                                            cheese dip       0.00      0.00      0.00         1
+                                               cheese flavoured snacks       0.00      0.00      0.00         2
+                                                       cheese products       0.00      0.00      0.00         2
+                                                       cheese sausages       0.00      0.00      0.00         1
+                                                         cheese spread       0.00      0.00      0.00         3
+                                                       cheese tortilla       0.00      0.00      0.00         2
+                                                           cheese tray       0.00      0.00      0.00         4
+                                                        cheesy spirals       0.00      0.00      0.00         3
+                                                              cherries       0.00      0.00      0.00         5
+                                                            chia seeds       0.00      0.00      0.00         2
+                                                               chicken       0.00      0.00      0.00         7
+                                      chicken and chicken preparations       0.00      0.00      0.00         3
+                                                chicken based products       0.00      0.00      0.00        35
+                                                        chicken breast       0.00      0.00      0.00         7
+                                                         chicken broth       0.00      0.00      0.00         5
+                                                       chicken dippers       0.00      0.00      0.00         1
+                                                       chicken fillets       0.00      0.00      0.00         4
+                                                     chicken meat meal       0.00      0.00      0.00         2
+                                                 chicken meat products       0.00      0.00      0.00         4
+                                                   chicken noodle soup       0.00      0.00      0.00         2
+                                                  chicken preparations       0.00      0.00      0.00         5
+                                             chicken products - frozen       0.00      0.00      0.00         3
+                                                        chicken slices       0.00      0.00      0.00         3
+                                            chicken steak without bone       0.00      0.00      0.00         1
+                                                             chickpeas       0.00      0.00      0.00         1
+                                                          chilled beef       0.00      0.00      0.00         2
+                                             chilled beef preparations       0.00      0.00      0.00         1
+                                             chilled bengali cod curry       0.00      0.00      0.00         4
+                                            chilled boneless pork meat       0.00      0.00      0.00         2
+                                                chilled chicken thighs       0.00      0.00      0.00         2
+                                                 chilled chicken wings       0.00      0.00      0.00         4
+                                           chilled dumplings with meat       0.00      0.00      0.00         2
+                                                       chilled lasagne       0.00      0.00      0.00         3
+                                                          chilled pork       0.00      0.00      0.00         2
+                            chilled ready to eat salad and side dishes       0.00      0.00      0.00         3
+                                                        chilled salads       0.00      0.00      0.00         1
+                                                    chilled smoked ham       0.00      0.00      0.00         2
+                                            chilled vacuum packed beef       0.00      0.00      0.00         2
+                                                                chilli       0.00      0.00      0.00         4
+                                                            chilli oil       0.00      0.00      0.00         1
+                                                          chilli paste       0.00      0.00      0.00         1
+                                                        chilli peppers       0.00      0.00      0.00         3
+                                                         chilli pickle       0.00      0.00      0.00         2
+                                                         chilli powder       0.00      0.00      0.00         1
+                                                          chilli sauce       0.00      0.00      0.00         3
+                                                              chillies       0.00      0.00      0.00         3
+                                                             chocolate       0.00      0.00      0.00         2
+                                      chocolate and chocolate products       0.00      0.00      0.00         1
+                                         chocolate and hazelnut spread       0.00      0.00      0.00         2
+                                       chocolate and products therefor       0.00      0.00      0.00         1
+                       chocolate and strawberry flavoured cyclone milk       0.00      0.00      0.00         2
+                                                        chocolate bars       0.00      0.00      0.00        11
+                                                       chocolate chips       0.00      0.00      0.00         2
+                                               chocolate confectionery       0.00      0.00      0.00         2
+                                                     chocolate dessert       0.00      0.00      0.00         4
+                                                chocolate drink powder       0.00      0.00      0.00         4
+                                                      chocolate drinks       0.00      0.00      0.00         1
+                                    chocolate easter eggs with filling       0.00      0.00      0.00         2
+                                                        chocolate eggs       0.00      0.00      0.00         5
+                                           chocolate flavoured cereals       0.00      0.00      0.00         1
+                                         chocolate flavoured meringues       0.00      0.00      0.00         4
+                                                chocolate mini muffins       0.00      0.00      0.00         2
+                                                      chocolate mousse       0.00      0.00      0.00         3
+                                                    chocolate products       0.00      0.00      0.00         6
+                                                 chocolate spelt balls       0.00      0.00      0.00         2
+                                       chocolate spread with hazelnuts       0.00      0.00      0.00         2
+                                                    chocolate truffles       0.00      0.00      0.00         3
+                                                      chocolate wafers       0.00      0.00      0.00         4
+                                                            chocolates       0.00      0.00      0.00         3
+                                                               chorizo       0.00      0.00      0.00         1
+                                                       chorizo sausage       0.00      0.00      0.00         1
+                                                                 cider       0.00      0.00      0.00         6
+                                                              cinnamon       0.00      0.00      0.00         1
+                                                        cinnamon rolls       0.00      0.00      0.00         1
+                                                                 clams       0.00      0.00      0.00         2
+                                                        clams (canned)       0.00      0.00      0.00         5
+                                                cocktail sausage rolls       0.00      0.00      0.00         1
+                                                         coconut juice       0.00      0.00      0.00         1
+                                                          coconut milk       0.00      0.00      0.00         2
+                                                    coconut milk drink       0.00      0.00      0.00         1
+                                                           coconut oil       0.00      0.00      0.00         1
+                                                         coconut sugar       0.00      0.00      0.00         3
+                                                              coconuts       0.00      0.00      0.00         6
+                                                                   cod       0.00      0.00      0.00         1
+                                                           cod fillets       0.00      0.00      0.00         2
+                                                          coffee beans       0.00      0.00      0.00         4
+                                                          coffee drink       0.00      0.00      0.00         2
+                                                            cola drink       0.00      0.00      0.00         1
+                                                               colours       0.00      0.00      0.00         5
+                                                   concentrated apples       0.00      0.00      0.00         1
+                                                         confectionery       0.00      0.00      0.00         4
+                                                        cooked chicken       0.00      0.00      0.00         4
+                                                 cooked chicken skewer       0.00      0.00      0.00         1
+                                                            cooked ham       0.00      0.00      0.00         1
+                                                       cooked sausages       0.00      0.00      0.00         4
+                                                               cookies       0.00      0.00      0.00        15
+                                                         cooking sauce       0.00      0.00      0.00         1
+                                                             coriander       0.00      0.00      0.00         2
+                                                                  corn       0.00      0.00      0.00         7
+                                                        cottage cheese       0.00      0.00      0.00         3
+                                                           cottage pie       0.00      0.00      0.00         1
+                                                            courgettes       0.00      0.00      0.00         1
+                                                             cous cous       0.00      0.00      0.00         2
+                                                       cow milk cheese       0.00      0.00      0.00         2
+                                                              crackers       0.00      0.00      0.00         5
+                                                         cranberry jam       0.00      0.00      0.00         3
+                                                       cranberry juice       0.00      0.00      0.00         4
+                                                   cream chocolate pie       0.00      0.00      0.00         1
+                                                             crepe mix       0.00      0.00      0.00         2
+                                                    crisp cheese snack       0.00      0.00      0.00         1
+                                                            croissants       0.00      0.00      0.00         2
+                                                    crushed red pepper       0.00      0.00      0.00         2
+                                      crustaceans and products thereof       0.00      0.00      0.00         2
+                                                          cumin powder       0.00      0.00      0.00         1
+                                                              cupcakes       0.00      0.00      0.00         1
+                                                            cured loin       0.00      0.00      0.00         4
+                                                       cured pork meat       0.00      0.00      0.00         3
+                                                      cured smoked ham       0.00      0.00      0.00         3
+                                                                 curry       0.00      0.00      0.00         3
+                                                          curry sauces       0.00      0.00      0.00         3
+                                                               custard       0.00      0.00      0.00         1
+                                                            cuttlefish       0.00      0.00      0.00         2
+                                                       dark chocolates       0.00      0.00      0.00         8
+                                                                 dates       0.00      0.00      0.00         3
+                                                deboned chicken thighs       0.00      0.00      0.00         2
+                                                              desserts       0.00      0.00      0.00        12
+                                                            diced beef       0.00      0.00      0.00         4
+                                                      dietary capsules       0.00      0.00      0.00         3
+                                                    dietary supplement       0.00      0.00      0.00        14
+                     dietetic foods, food supplements, fortified foods       0.00      0.00      0.00         5
+                                                             dip-sauce       0.00      0.00      0.00         2
+                                                         dipping sauce       0.00      0.00      0.00         3
+                                                              dressing       0.00      0.00      0.00         1
+                                                       dressing sauces       0.00      0.00      0.00         1
+                                                         dried almonds       0.00      0.00      0.00         3
+                                                       dried anchovies       0.00      0.00      0.00         1
+                                                          dried apples       0.00      0.00      0.00         2
+                                                        dried apricots       0.00      0.00      0.00         7
+                                                           dried beans       0.00      0.00      0.00         1
+                                                       dried beef meat       0.00      0.00      0.00         2
+                                                     dried brown beans       0.00      0.00      0.00         2
+                                                  dried chilli peppers       0.00      0.00      0.00         2
+                                                         dried coconut       0.00      0.00      0.00         1
+                                                     dried cranberries       0.00      0.00      0.00         1
+                                                   dried elder berries       0.00      0.00      0.00         3
+                                                            dried figs       0.00      0.00      0.00         2
+                                                   dried fruit in jars       0.00      0.00      0.00         3
+                                                       dried fruit mix       0.00      0.00      0.00         1
+                                                          dried fruits       0.00      0.00      0.00         2
+                                           dried fruits with chocolate       0.00      0.00      0.00         3
+                                                          dried garlic       0.00      0.00      0.00         3
+                    dried herb powder ashwagandha (withania somnifera)       0.00      0.00      0.00         6
+                                                          dried lilies       0.00      0.00      0.00         4
+                                                       dried mushrooms       0.00      0.00      0.00         1
+                                                         dried pangash       0.00      0.00      0.00         1
+                                                   dried pork sausages       0.00      0.00      0.00         3
+                                                         dried sausage       0.00      0.00      0.00         4
+                            dried shitake mushrooms (lentinula edodes)       0.00      0.00      0.00         5
+                                                  dried shrimp noodles       0.00      0.00      0.00         1
+                                                    dried strawberries       0.00      0.00      0.00         2
+                                                          drink powder       0.00      0.00      0.00         1
+                                                               dry ham       0.00      0.00      0.00         2
+                                                           dry sausage       0.00      0.00      0.00         1
+                                                                  duck       0.00      0.00      0.00         2
+                                                             dumplings       0.00      0.00      0.00         1
+                                                           edam cheese       0.00      0.00      0.00         3
+                                                          egg products       0.00      0.00      0.00         5
+                                                             egg rolls       0.00      0.00      0.00         3
+                                                    egg salad with ham       0.00      0.00      0.00         4
+                                                                  eggs       0.00      0.00      0.00        20
+                                                 eggs and egg products       0.00      0.00      0.00         3
+               emulsifiers, stabilizers, thickeners and gelling agents       0.00      0.00      0.00         1
+                                               energy and protein bars       0.00      0.00      0.00         1
+                                                          energy drink       0.00      0.00      0.00         2
+                                                           fajita meal       0.00      0.00      0.00         1
+                                                         fats and oils       0.00      0.00      0.00         1
+                                                        feed materials       0.00      0.00      0.00         9
+                                                          fennel seeds       0.00      0.00      0.00         1
+                                                   fermented beef meat       0.00      0.00      0.00         1
+                                                fermented milk product       0.00      0.00      0.00         3
+                                                      filled chocolate       0.00      0.00      0.00         1
+                                                fish and fish products       0.00      0.00      0.00         1
+                                                         fish products       0.00      0.00      0.00         5
+                                                              fish roe       0.00      0.00      0.00         3
+                                                            fish sauce       0.00      0.00      0.00         4
+                                                        flavoured milk       0.00      0.00      0.00         2
+                                                flavoured potato chips       0.00      0.00      0.00         1
+                                                  flavoured soft drink       0.00      0.00      0.00         2
+                                   flavoured whey protein preparations       0.00      0.00      0.00         2
+                                                              flavours       0.00      0.00      0.00         2
+                                                              flaxseed       0.00      0.00      0.00         5
+                                            flounders, halibuts, soles       0.00      0.00      0.00         2
+                                                                 flour       0.00      0.00      0.00         8
+                                                             foie gras       0.00      0.00      0.00         1
+                                                       food supplement       0.00      0.00      0.00         8
+                                            french beans / green beans       0.00      0.00      0.00         4
+                                                          french toast       0.00      0.00      0.00         2
+                                                            fresh beef       0.00      0.00      0.00         1
+                                                        fresh broccoli       0.00      0.00      0.00         5
+                                                          fresh cheese       0.00      0.00      0.00         1
+                                                  fresh cut vegetables       0.00      0.00      0.00         3
+                                                           fresh dough       0.00      0.00      0.00         4
+                                                     fresh goat cheese       0.00      0.00      0.00         3
+                                                         fresh lychees       0.00      0.00      0.00         3
+                                                       fresh mushrooms       0.00      0.00      0.00         3
+                                                         fresh parsley       0.00      0.00      0.00         2
+                                                            fresh pork       0.00      0.00      0.00        12
+                                                        fresh pork leg       0.00      0.00      0.00         4
+                                                       fresh pork loin       0.00      0.00      0.00         2
+                                  fresh poultry and poultry prepations       0.00      0.00      0.00         3
+                                    fresh processed beef meat products       0.00      0.00      0.00         3
+                                                      fresh vegetables       0.00      0.00      0.00         2
+                                                           frozen beef       0.00      0.00      0.00         3
+                                                   frozen beef lasagne       0.00      0.00      0.00         2
+                                                   frozen beef patties       0.00      0.00      0.00         1
+                                                    frozen beef tongue       0.00      0.00      0.00         1
+                                                 frozen beef trimmings       0.00      0.00      0.00         2
+                                                    frozen berries mix       0.00      0.00      0.00         5
+                                                  frozen boneless beef       0.00      0.00      0.00         1
+                                                   frozen bourbon ribs       0.00      0.00      0.00         2
+                                                 frozen breaded turkey       0.00      0.00      0.00         1
+                                                       frozen broccoli       0.00      0.00      0.00         1
+                                                    frozen burger buns       0.00      0.00      0.00         3
+                                                        frozen burgers       0.00      0.00      0.00         1
+                                                        frozen chicken       0.00      0.00      0.00         1
+                                    frozen chicken strips with tendons       0.00      0.00      0.00         6
+                                            frozen cooked lobster meat       0.00      0.00      0.00         3
+                                            frozen diced chicken roast       0.00      0.00      0.00         1
+                                            frozen dumplings with pork       0.00      0.00      0.00         2
+                                                   frozen fish burgers       0.00      0.00      0.00         2
+                                                   frozen fish fillets       0.00      0.00      0.00         1
+                                                  frozen fish products       0.00      0.00      0.00         1
+                                                     frozen fried rice       0.00      0.00      0.00         2
+                                                 frozen grated coconut       0.00      0.00      0.00         3
+                                                    frozen green beans       0.00      0.00      0.00         3
+                                                     frozen hamburgers       0.00      0.00      0.00         1
+                                                    frozen hash browns       0.00      0.00      0.00         2
+                                                           frozen leek       0.00      0.00      0.00         3
+                                                 frozen marinated beef       0.00      0.00      0.00         2
+                                              frozen marinated chicken       0.00      0.00      0.00         1
+                                                       frozen pancakes       0.00      0.00      0.00         1
+                                                           frozen peas       0.00      0.00      0.00         1
+                                                        frozen peppers       0.00      0.00      0.00         1
+                                                            frozen pie       0.00      0.00      0.00         2
+                                                          frozen pizza       0.00      0.00      0.00         2
+                                                      frozen pork meat       0.00      0.00      0.00         5
+                                              frozen pork preparations       0.00      0.00      0.00         1
+                                                      frozen pork ribs       0.00      0.00      0.00         4
+                                                 frozen pork trimmings       0.00      0.00      0.00         3
+                                                       frozen potatoes       0.00      0.00      0.00         2
+                                                        frozen poultry       0.00      0.00      0.00         4
+                                                   frozen poultry meat       0.00      0.00      0.00         2
+                                           frozen poultry preparations       0.00      0.00      0.00         4
+                                               frozen poultry products       0.00      0.00      0.00         1
+          frozen prepared dish of chicken tikka masala with pilau rice       0.00      0.00      0.00         5
+                                                frozen raw ground beef       0.00      0.00      0.00         2
+                                          frozen ready to cook chicken       0.00      0.00      0.00         1
+                                                  frozen sausage rolls       0.00      0.00      0.00         3
+                                                       frozen sausages       0.00      0.00      0.00         2
+                                                        frozen seafood       0.00      0.00      0.00         2
+                                         frozen seasoned potato wedges       0.00      0.00      0.00         3
+                                                 frozen sliced coconut       0.00      0.00      0.00         2
+                                            frozen spicy chicken wings       0.00      0.00      0.00         3
+                                                        frozen spinach       0.00      0.00      0.00         3
+                                                   frozen spring rolls       0.00      0.00      0.00         2
+                                                     frozen vegetables       0.00      0.00      0.00         2
+                                                 frozen vegetables mix       0.00      0.00      0.00         2
+                                              frozen vegetarian cutlet       0.00      0.00      0.00         2
+                                                     frozen whole fish       0.00      0.00      0.00         3
+                                                            fruit bars       0.00      0.00      0.00         2
+                                                           fruit juice       0.00      0.00      0.00         6
+                                                  fruit juice smoothie       0.00      0.00      0.00         3
+                                                             fruit mix       0.00      0.00      0.00         1
+                                                            fruit pies       0.00      0.00      0.00         1
+                                                           fruit punch       0.00      0.00      0.00         3
+                                                           fruit salad       0.00      0.00      0.00         1
+                                           fruit salad with cantaloupe       0.00      0.00      0.00         3
+                                                          fruit snacks       0.00      0.00      0.00         3
+                                                 fruits and vegetables       0.00      0.00      0.00         1
+                                                         garlic powder       0.00      0.00      0.00         2
+                                                        garlic sausage       0.00      0.00      0.00         2
+                                                         ginger powder       0.00      0.00      0.00         2
+                                                         ginger slices       0.00      0.00      0.00         2
+                                                           gingerbread       0.00      0.00      0.00         5
+                                                        ginseng powder       0.00      0.00      0.00         2
+                                                               gnocchi       0.00      0.00      0.00         1
+                                                           goat cheese       0.00      0.00      0.00         2
+                                        goat cheese made from raw milk       0.00      0.00      0.00         4
+                                                             goat meat       0.00      0.00      0.00         4
+                                                             goat milk       0.00      0.00      0.00         1
+                                                          goji berries       0.00      0.00      0.00         3
+                                                golden enoki mushrooms       0.00      0.00      0.00         1
+                                               golden raisins/sultanas       0.00      0.00      0.00         1
+                                                     gorgonzola cheese       0.00      0.00      0.00         1
+                                                                 gouda       0.00      0.00      0.00         3
+                                                          gouda cheese       0.00      0.00      0.00         4
+                                                               granola       0.00      0.00      0.00         2
+                                                                grapes       0.00      0.00      0.00         2
+                                                         grated cheese       0.00      0.00      0.00         2
+                                                 grated cheese mixture       0.00      0.00      0.00         2
+                                                        grated coconut       0.00      0.00      0.00         1
+                                                        gravy granules       0.00      0.00      0.00         2
+                                                             gravy mix       0.00      0.00      0.00         2
+                                                     green basil pesto       0.00      0.00      0.00         2
+                                                            green bean       0.00      0.00      0.00         1
+                                                           green pesto       0.00      0.00      0.00         2
+                                               green pesto basil sauce       0.00      0.00      0.00         5
+                                                         green raisins       0.00      0.00      0.00         4
+                                                             green tea       0.00      0.00      0.00         1
+                                        grilled seasoned chicken plate       0.00      0.00      0.00         1
+                                                  grissini breadsticks       0.00      0.00      0.00         1
+                                                        ground almonds       0.00      0.00      0.00         1
+                                                           ground beef       0.00      0.00      0.00        11
+                                                      ground beef meat       0.00      0.00      0.00         1
+                                                   ground black pepper       0.00      0.00      0.00         4
+                                                     ground hot pepper       0.00      0.00      0.00         1
+                                                       ground turmeric       0.00      0.00      0.00         1
+                                                       halloumi cheese       0.00      0.00      0.00         1
+                                                                   ham       0.00      0.00      0.00        14
+                                                            ham slices       0.00      0.00      0.00         2
+                                                           hard cheese       0.00      0.00      0.00         1
+                                                             hazelnuts       0.00      0.00      0.00         2
+                                                              hemp oil       0.00      0.00      0.00         3
+                                                         herbal premix       0.00      0.00      0.00         2
+                                                            herbal tea       0.00      0.00      0.00         2
+                                                                 herbs       0.00      0.00      0.00         2
+                                                     high protein bars       0.00      0.00      0.00         1
+                                                                 honey       0.00      0.00      0.00         5
+                                                             honeycomb       0.00      0.00      0.00         6
+                                                   horseradish in jars       0.00      0.00      0.00         1
+                                                                horses       0.00      0.00      0.00         4
+                                                     hot chicken wings       0.00      0.00      0.00         2
+                                    hot chilli and hot chilli products       0.00      0.00      0.00         2
+                                                      hot dog sausages       0.00      0.00      0.00         1
+                                                              hot dogs       0.00      0.00      0.00         4
+                                                             ice cream       0.01      1.00      0.03        36
+                                                            ice sticks       0.00      0.00      0.00         2
+                                                              iced tea       0.00      0.00      0.00         2
+                                                     ices and desserts       0.00      0.00      0.00         1
+                                                        infant formula       0.00      0.00      0.00         7
+                                                        instant cereal       0.00      0.00      0.00         2
+                                                        instant coffee       0.00      0.00      0.00         1
+                                         instant drink/drinking powder       0.00      0.00      0.00         3
+                                                       instant noodles       0.00      0.00      0.00         1
+                                                                   jam       0.00      0.00      0.00         2
+                                                               jellies       0.00      0.00      0.00        11
+                                                        jerky products       0.00      0.00      0.00         3
+                                                           juice drink       0.00      0.00      0.00         2
+                                                                juices       0.00      0.00      0.00         2
+                                                                  kale       0.00      0.00      0.00         3
+                                                               ketchup       0.00      0.00      0.00         3
+                                                                  lamb       0.00      0.00      0.00         1
+                                                               lasagne       0.00      0.00      0.00         2
+                                                           lemon juice       0.00      0.00      0.00         2
+                                                 lemonade (lemon soda)       0.00      0.00      0.00         4
+                                                                lemons       0.00      0.00      0.00         5
+                                                               lentils       0.00      0.00      0.00         3
+                                                          lentils stew       0.00      0.00      0.00         4
+                                                                  lime       0.00      0.00      0.00         4
+                                                                 limes       0.00      0.00      0.00         1
+                                                      liquid egg white       0.00      0.00      0.00         1
+                                                liquid food supplement       0.00      0.00      0.00         2
+                                                             liquorice       0.00      0.00      0.00         4
+                                                               lobster       0.00      0.00      0.00         4
+                                                                lokoum       0.00      0.00      0.00         3
+                                                       long grain rice       0.00      0.00      0.00         1
+                                           loose smoked whole chickens       0.00      0.00      0.00         2
+                                                         luncheon meat       0.00      0.00      0.00         1
+                                                           lupin seeds       0.00      0.00      0.00         3
+                                                        macadamia nuts       0.00      0.00      0.00         1
+                                                              mackerel       0.00      0.00      0.00         3
+                                                                 maize       0.00      0.00      0.00         2
+                                                                 mango       0.00      0.00      0.00         1
+                                                             margarine       0.00      0.00      0.00         2
+                                                marinated chicken meat       0.00      0.00      0.00         1
+                                                           marshmalows       0.00      0.00      0.00         2
+                                                      masala spice mix       0.00      0.00      0.00         1
+                                             mashed chickpeas (hummus)       0.00      0.00      0.00         5
+                                                 massala spice mixture       0.00      0.00      0.00         5
+                                                            mayonnaise       0.00      0.00      0.00         1
+                                                      meal replacement       0.00      0.00      0.00         2
+                           meat and meat products (other than poultry)       0.00      0.00      0.00         2
+                                                             meat loaf       0.00      0.00      0.00         2
+                                                     meat preparations       0.00      0.00      0.00         2
+meat samosas, vegetable samosas, chicken samosas and meat spring rolls       0.00      0.00      0.00         1
+                                          meat, egg and dairy products       0.00      0.00      0.00         2
+                                                              meatloaf       0.00      0.00      0.00         1
+                                   mechanically separated chicken meat       0.00      0.00      0.00         2
+                                                           melon seeds       0.00      0.00      0.00         1
+                                                                melons       0.00      0.00      0.00         2
+                                                                  milk       0.00      0.00      0.00        18
+                                        milk chocolate covered raisins       0.00      0.00      0.00         2
+                                                       milk chocolates       0.00      0.00      0.00         4
+                                                           milk powder       0.00      0.00      0.00         1
+                                                         milk products       0.00      0.00      0.00         2
+                                                         milk proteins       0.00      0.00      0.00         1
+                                                                millet       0.00      0.00      0.00         8
+                                                       millet porridge       0.00      0.00      0.00         5
+                                                           minced beef       0.00      0.00      0.00         2
+                                                      minced beef meat       0.00      0.00      0.00         5
+                                                        minced chicken       0.00      0.00      0.00         1
+                                                           minced pork       0.00      0.00      0.00         2
+                                                         mineral water       0.00      0.00      0.00         2
+                                                        mineral waters       0.00      0.00      0.00         2
+                                                        mint chocolate       0.00      0.00      0.00         3
+                                           mitragyna speciosa (kratom)       0.00      0.00      0.00         2
+                                                           mix of nuts       0.00      0.00      0.00         1
+                                                            mixed nuts       0.00      0.00      0.00         4
+                                                           mixed salad       0.00      0.00      0.00         3
+                                                          mixed spices       0.00      0.00      0.00         3
+                                                      mixed vegetables       0.00      0.00      0.00         3
+                                                              moussaka       0.00      0.00      0.00         1
+                                                     mozzarella cheese       0.00      0.00      0.00         2
+                                                                muesli       0.00      0.00      0.00         2
+                                                               muffins       0.00      0.00      0.00         5
+                                         multi vitamin food supplement       0.00      0.00      0.00         3
+                                                     mung bean sprouts       0.00      0.00      0.00         2
+                                                             mushrooms       0.00      0.00      0.00         2
+                                                               mussels       0.00      0.00      0.00         1
+                                                         mustard sauce       0.00      0.00      0.00         1
+                                                           nacho chips       0.00      0.00      0.00         3
+                                                         natural honey       0.00      0.00      0.00         7
+                                               non-alcoholic beverages       0.00      0.00      0.00         2
+                                                                noodle       0.00      0.00      0.00         2
+                                                           noodle soup       0.00      0.00      0.00         1
+                                                               noodles       0.00      0.00      0.00         4
+                                                                nougat       0.00      0.00      0.00         4
+                                                 nut and fruit mixture       0.00      0.00      0.00         1
+                                                    nut and raisin mix       0.00      0.00      0.00         3
+                                                              nut bars       0.00      0.00      0.00         4
+                                                               nut mix       0.00      0.00      0.00         1
+                                                           nut mixture       0.00      0.00      0.00         7
+                                                    nut-almond mixture       0.00      0.00      0.00         3
+                                                                nutmeg       0.00      0.00      0.00         3
+                                                       nutrition shake       0.00      0.00      0.00         1
+                                                                  nuts       0.00      0.00      0.00         2
+                                                nuts and nuts products       0.00      0.00      0.00         2
+                                                              nuts mix       0.00      0.00      0.00         2
+                                          nuts, nut products and seeds       0.00      0.00      0.00         1
+                                                                  oats       0.00      0.00      0.00         2
+                                                               octopus       0.00      0.00      0.00         2
+                                                             olive oil       0.00      0.00      0.00         7
+                                                                olives       0.00      0.00      0.00         1
+                                                                onions       0.00      0.00      0.00         5
+                                                          orange juice       0.00      0.00      0.00         1
+                                                        orange peppers       0.00      0.00      0.00         1
+                                                    orange sugar paste       0.00      0.00      0.00         2
+                                                               oregano       0.00      0.00      0.00         2
+                                                organic chilled hummus       0.00      0.00      0.00         1
+                                              organic chlorella powder       0.00      0.00      0.00         2
+                                                 organic coconut flour       0.00      0.00      0.00         1
+                                                   organic coconut oil       0.00      0.00      0.00         4
+                                                         organic dates       0.00      0.00      0.00         3
+                                                          organic figs       0.00      0.00      0.00         3
+                                                           organic tea       0.00      0.00      0.00         1
+                                                  other dairy products       0.00      0.00      0.00         9
+                                            other food product / mixed       0.00      0.00      0.00         2
+                              other fruit and vegetable juice products       0.00      0.00      0.00         3
+                                    other not classified meat products       0.00      0.00      0.00         8
+                                                   other types of meat       0.00      0.00      0.00         5
+                                              other water-based drinks       0.00      0.00      0.00         4
+                                                          oyster sauce       0.00      0.00      0.00         3
+                                                               oysters       0.00      0.00      0.00         9
+                                                              palm oil       0.00      0.00      0.00         7
+                                                              pancakes       0.00      0.00      0.00         4
+                                                                papaya       0.00      0.00      0.00         4
+                                                               paprika       0.00      0.00      0.00         3
+                                                parmesan cheese grated       0.00      0.00      0.00         1
+                                                               parsnip       0.00      0.00      0.00         4
+                                                                 pasta       0.00      0.00      0.00         3
+                                                        pasta products       0.00      0.00      0.00         2
+                                                           pasta salad       0.00      0.00      0.00         3
+                                                           pasta sauce       0.00      0.00      0.00         1
+                                           pasteurized cow milk cheese       0.00      0.00      0.00         1
+                                                      pasteurized milk       0.00      0.00      0.00         2
+                                                                pastry       0.00      0.00      0.00         1
+                                                       pastry products       0.00      0.00      0.00         5
+                                                       pastry tartlets       0.00      0.00      0.00         1
+                                                               peanuts       0.00      0.00      0.00        11
+                                                            pear juice       0.00      0.00      0.00         4
+                                                                 pears       0.00      0.00      0.00         1
+                                                       pecorino cheese       0.00      0.00      0.00         2
+                                                            peppermint       0.00      0.00      0.00         4
+                                                               peppers       0.00      0.00      0.00         4
+                                                                 pesto       0.00      0.00      0.00         2
+                                             pesto sauce (pesto verde)       0.00      0.00      0.00         4
+                                                              pet feed       0.00      0.00      0.00        18
+                                                      pickled beetroot       0.00      0.00      0.00         4
+                                                      pickled cucumber       0.00      0.00      0.00         2
+                             pickled figs, cherries, pears and walnuts       0.00      0.00      0.00         2
+                                         pickled gherkins in glass jar       0.00      0.00      0.00         3
+                                                  pickled grape leaves       0.00      0.00      0.00         2
+                                                       pig meat - pork       0.00      0.00      0.00         6
+                                                             pine nuts       0.00      0.00      0.00         1
+                                                        pistachio nuts       0.00      0.00      0.00         9
+                                                                 pizza       0.00      0.00      0.00         2
+                                                              plastics       0.00      0.00      0.00        30
+                                       plum bread &amp; butter pudding       0.00      0.00      0.00         2
+                                                                 plums       0.00      0.00      0.00         4
+                                                           pomegranate       0.00      0.00      0.00         2
+                                                                 poppy       0.00      0.00      0.00         3
+                                                          porcine lard       0.00      0.00      0.00         3
+                                                            pork belly       0.00      0.00      0.00         3
+                                                      pork carcass(es)       0.00      0.00      0.00         4
+                                                          pork fillets       0.00      0.00      0.00         3
+                                                   pork loins - frozen       0.00      0.00      0.00         2
+                                                             pork meat       0.00      0.00      0.00         2
+                                                              pork pie       0.00      0.00      0.00         1
+                                                      pork preparation       0.00      0.00      0.00         1
+                                                          pork sausage       0.00      0.00      0.00         7
+                                                         pork shoulder       0.00      0.00      0.00         2
+                                                 pork shoulder - fresh       0.00      0.00      0.00         2
+                                                          potato chips       0.00      0.00      0.00         6
+                                                          potato salad       0.00      0.00      0.00         2
+                                                              potatoes       0.00      0.00      0.00         2
+                                                          poultry meat       0.00      0.00      0.00         1
+                                poultry meat and poultry meat products       0.00      0.00      0.00         1
+                                                      powder seasoning       0.00      0.00      0.00         3
+                                                        prawn crackers       0.00      0.00      0.00         3
+                                                                prawns       0.00      0.00      0.00         6
+                                                   prebaked apple pies       0.00      0.00      0.00         1
+                                   precooked cooked beef meat products       0.00      0.00      0.00         4
+                                                       prepacked salad       0.00      0.00      0.00         2
+                                                         prepared dish       0.00      0.00      0.00        10
+                                       prepared dish containing prawns       0.00      0.00      0.00         1
+                                            prepared dish with chicken       0.00      0.00      0.00         2
+                                                       prepared dishes       0.00      0.00      0.00         1
+                                            prepared dishes and snacks       0.00      0.00      0.00         2
+                                                       prepared salads       0.00      0.00      0.00         2
+                                               preserved red bean curd       0.00      0.00      0.00         2
+                                                              pretzels       0.00      0.00      0.00         2
+                                             probiotic food supplement       0.00      0.00      0.00         1
+                                                            prosciutto       0.00      0.00      0.00         2
+                                                         protein balls       0.00      0.00      0.00         3
+                                                           protein bar       0.00      0.00      0.00         3
+                                                          protein bars       0.00      0.00      0.00         2
+                                                        protein powder       0.00      0.00      0.00         3
+                                                   protein supplements       0.00      0.00      0.00         2
+                                                               pudding       0.00      0.00      0.00         2
+                                                           puffed rice       0.00      0.00      0.00         4
+                                                         pumpkin seeds       0.00      0.00      0.00         3
+                                                                  pâté       0.00      0.00      0.00         4
+                                                                quinoa       0.00      0.00      0.00         2
+                                                     quorn preparation       0.00      0.00      0.00         2
+                                                                radish       0.00      0.00      0.00         1
+                                                               raisins       0.00      0.00      0.00         1
+                                                         ramen noodles       0.00      0.00      0.00         2
+                                                           raspberries       0.00      0.00      0.00         2
+                                                               ravioli       0.00      0.00      0.00         1
+                                                         raw beef meat       0.00      0.00      0.00        10
+                          raw beef meat and raw beef meat preparations       0.00      0.00      0.00         4
+                                                 raw cow's milk cheese       0.00      0.00      0.00         1
+                                                  raw goat milk cheese       0.00      0.00      0.00         3
+                                                              raw milk       0.00      0.00      0.00         2
+                                                       raw milk cheese       0.00      0.00      0.00         4
+                                             raw milk cheese reblochon       0.00      0.00      0.00         3
+                                                raw milk goat's cheese       0.00      0.00      0.00         4
+                          raw pork meat and raw pork meat preparations       0.00      0.00      0.00         3
+                              ready cooked sliced chicken tikka breast       0.00      0.00      0.00         2
+                                             ready to eat - cook meals       0.00      0.00      0.00        21
+                                             ready to eat meat product       0.00      0.00      0.00         1
+                                           ready-to-eat seafood sticks       0.00      0.00      0.00         3
+                                                            red chilli       0.00      0.00      0.00         2
+                                                             red pesto       0.00      0.00      0.00         2
+                                                          refreshments       0.00      0.00      0.00         3
+                                                                  rice       0.00      0.00      0.00         1
+                                                            rice balls       0.00      0.00      0.00         1
+                                                            rice cakes       0.00      0.00      0.00         2
+                                              rice cereal for children       0.00      0.00      0.00         3
+                                                         rice crackers       0.00      0.00      0.00         8
+                                                           rice flakes       0.00      0.00      0.00         1
+                                                            rice flour       0.00      0.00      0.00         2
+                                                             rice meal       0.00      0.00      0.00         1
+                                                          rice noodles       0.00      0.00      0.00         2
+                                                            rice snack       0.00      0.00      0.00         3
+                                                           rice sticks       0.00      0.00      0.00         1
+                                                       rice vermicelli       0.00      0.00      0.00         5
+                                  ricotta and spinach tortelloni pasta       0.00      0.00      0.00         3
+                                                        ricotta cheese       0.00      0.00      0.00         1
+                                       roasted and caramelized peanuts       0.00      0.00      0.00         2
+                                                        roasted coffee       0.00      0.00      0.00         5
+                                                          roasted nuts       0.00      0.00      0.00         5
+                                                                 rolls       0.00      0.00      0.00         2
+                                                                   rum       0.00      0.00      0.00         4
+                                                 saint marcelin cheese       0.00      0.00      0.00         3
+                                                        salad dressing       0.00      0.00      0.00         2
+                                                                salads       0.00      0.00      0.00        16
+                                                                salami       0.00      0.00      0.00         7
+                                                        salami sausage       0.00      0.00      0.00         5
+                                                         salami sticks       0.00      0.00      0.00         1
+                                                                salmon       0.00      0.00      0.00        10
+                                                                  salt       0.00      0.00      0.00         4
+                                                      salted anchovies       0.00      0.00      0.00         3
+                                                         salted radish       0.00      0.00      0.00         2
+                                                      sandwich filling       0.00      0.00      0.00         2
+                                                            sandwiches       0.00      0.00      0.00         8
+                                                              sardines       0.00      0.00      0.00         1
+                                                                 sauce       0.00      0.00      0.00         8
+                                                                sauces       0.00      0.00      0.00         5
+                                                       sauerkraut meal       0.00      0.00      0.00         4
+                                                               sausage       0.00      0.00      0.00        17
+                                                      sausage products       0.00      0.00      0.00         7
+                                                              scallops       0.00      0.00      0.00         1
+                                                                scones       0.00      0.00      0.00         1
+                                                      seafood cocktail       0.00      0.00      0.00         1
+                                                      seasoned chicken       0.00      0.00      0.00         1
+                                                             seasoning       0.00      0.00      0.00         2
+                                                         seasoning mix       0.00      0.00      0.00         1
+                                                       seasoning sauce       0.00      0.00      0.00         4
+                                                            seasonings       0.00      0.00      0.00         5
+                                                  seaweed preparations       0.00      0.00      0.00         1
+                                                             seed mixe       0.00      0.00      0.00         3
+                                                             seeds mix       0.00      0.00      0.00         2
+                                                     semi-hard cheeses       0.00      0.00      0.00         3
+                                                      semi-soft cheese       0.00      0.00      0.00         2
+                                        semolina and products therefor       0.00      0.00      0.00         1
+                                                                sesame       0.00      0.00      0.00         4
+                                                     sesame confection       0.00      0.00      0.00         1
+                                                            sesame oil       0.00      0.00      0.00         3
+                                                          sesame paste       0.00      0.00      0.00         1
+                                                       sesame seed oil       0.00      0.00      0.00         1
+                                                          sesame seeds       0.00      0.00      0.00         8
+                                                          sheep cheese       0.00      0.00      0.00         5
+                                                         shrimp snacks       0.00      0.00      0.00         2
+                                                               shrimps       0.00      0.00      0.00         6
+                                                        sichuan pepper       0.00      0.00      0.00         1
+                                                          sliced bread       0.00      0.00      0.00         2
+                                                            sliced ham       0.00      0.00      0.00         1
+                                                        smoked sausage       0.00      0.00      0.00         2
+                                                              smoothie       0.00      0.00      0.00         2
+                                                        snack crackers       0.00      0.00      0.00         2
+                                                             snack mix       0.00      0.00      0.00         4
+                                                         snack mixture       0.00      0.00      0.00         1
+                                                      snacks (various)       0.00      0.00      0.00         2
+                                                            soda drink       0.00      0.00      0.00         2
+                                                           soft cheese       0.00      0.00      0.00         3
+                                                  soft cheese (creams)       0.00      0.00      0.00         2
+                                                           soft drinks       0.00      0.00      0.00         1
+                                                   soft ripened cheese       0.00      0.00      0.00         2
+                                                               sorbets       0.00      0.00      0.00         2
+                                                                  soup       0.00      0.00      0.00        16
+                                  soups, broths, sauces and condiments       0.00      0.00      0.00         5
+                                                        soy bean paste       0.00      0.00      0.00         2
+                                                      soy milk product       0.00      0.00      0.00         3
+                                                          soy products       0.00      0.00      0.00         1
+                                                             soy sauce       0.00      0.00      0.00         1
+                                                           soy yoghurt       0.00      0.00      0.00         3
+                                            soya and products therefor       0.00      0.00      0.00         3
+                                                            soya drink       0.00      0.00      0.00         2
+                                                          soya product       0.00      0.00      0.00         3
+                                                       spaghetti sauce       0.00      0.00      0.00         5
+                                                   sparkling beverages       0.00      0.00      0.00         3
+                                                        spice marinade       0.00      0.00      0.00         3
+                                                             spice mix       0.00      0.00      0.00         2
+                                                                spices       0.00      0.00      0.00         1
+                                                           spicy sauce       0.00      0.00      0.00         1
+                                                            spicy tofu       0.00      0.00      0.00         1
+                                                    spicy tomato sauce       0.00      0.00      0.00         2
+                                                               spinach       0.00      0.00      0.00         3
+                                                        spinach leaves       0.00      0.00      0.00         4
+                                                               spirits       0.00      0.00      0.00         2
+                                                           sport drink       0.00      0.00      0.00         2
+                                                                spread       0.00      0.00      0.00         2
+                                                               spreads       0.00      0.00      0.00         2
+                                                          spring rolls       0.00      0.00      0.00         4
+                                                          spring water       0.00      0.00      0.00         4
+                                                          sprinkle mix       0.00      0.00      0.00         1
+                                                               sprouts       0.00      0.00      0.00         1
+                                                                 squid       0.00      0.00      0.00         2
+                                                                squids       0.00      0.00      0.00         2
+                                                                starch       0.00      0.00      0.00         4
+                  structured/textured fish meat products or fish paste       0.00      0.00      0.00         2
+                                                        stuffed pastry       0.00      0.00      0.00         1
+                                                                 sugar       0.00      0.00      0.00         9
+                                                   sugar confectionary       0.00      0.00      0.00         1
+                                                              sultanas       0.00      0.00      0.00         3
+                                                         sunflower oil       0.00      0.00      0.00         1
+                                                        sunflower seed       0.00      0.00      0.00         3
+                                                                 sushi       0.00      0.00      0.00         2
+                                                       sweet nut snack       0.00      0.00      0.00         3
+                                                            sweeteners       0.00      0.00      0.00         1
+                                                                sweets       0.00      0.00      0.00         7
+                                                           swiss rolls       0.00      0.00      0.00         2
+                                                                 syrup       0.00      0.00      0.00         1
+                                                           table water       0.00      0.00      0.00         1
+                                            table water and soda water       0.00      0.00      0.00         1
+                                                            taco sauce       0.00      0.00      0.00         1
+                                                                tahini       0.00      0.00      0.00         3
+                                                 tahini (sesame paste)       0.00      0.00      0.00         1
+                                                     tallegio (cheese)       0.00      0.00      0.00         1
+                                                         tapioca chips       0.00      0.00      0.00         1
+                                                              tarragon       0.00      0.00      0.00         2
+                                        tasty trio condiment selection       0.00      0.00      0.00         2
+                                                                   tea       0.00      0.00      0.00         7
+                                                              tea bags       0.00      0.00      0.00         4
+                                                             tea drink       0.00      0.00      0.00         2
+                                                  testosterone booster       0.00      0.00      0.00         1
+                                           thermal processed beef meat       0.00      0.00      0.00         6
+                                           thermal processed pork meat       0.00      0.00      0.00        13
+                                                                 thyme       0.00      0.00      0.00         4
+                                                            tiger nuts       0.00      0.00      0.00         1
+                                                                toffee       0.00      0.00      0.00         4
+                                                                  tofu       0.00      0.00      0.00         1
+                                                          tomato sauce       0.00      0.00      0.00         1
+                                                              tomatoes       0.00      0.00      0.00         1
+                                                              tortilla       0.00      0.00      0.00         2
+                                                        tortilla chips       0.00      0.00      0.00         1
+                                                 tortilla chips cheese       0.00      0.00      0.00         2
+                                                                trouts       0.00      0.00      0.00         1
+                                                                  tuna       0.00      0.00      0.00         3
+                                                            tuna salad       0.00      0.00      0.00         4
+                                       turbot flatfish (psetta maxima)       0.00      0.00      0.00         2
+                                                                turkey       0.00      0.00      0.00         2
+                                        turkey and turkey preparations       0.00      0.00      0.00         4
+                                                 turkey based products       0.00      0.00      0.00         3
+                                                       turkey sandwich       0.00      0.00      0.00         2
+                                   turnip leaves in sunflower seed oil       0.00      0.00      0.00         1
+                                                               turnips       0.00      0.00      0.00         4
+                                                        tzatziki sauce       0.00      0.00      0.00         1
+                                                  unpasteurised cheese       0.00      0.00      0.00         3
+                                unsalted organic crunchy peanut butter       0.00      0.00      0.00         1
+                                                    vacuum packed beef       0.00      0.00      0.00         3
+                                          vacuum packed marinated pork       0.00      0.00      0.00         1
+                                           vacuum packed pork ear roll       0.00      0.00      0.00         2
+                                              vacuum packed sliced ham       0.00      0.00      0.00         4
+                                                         vanilla drink       0.00      0.00      0.00         3
+                                                        vanilla powder       0.00      0.00      0.00         5
+                                               various bakery products       0.00      0.00      0.00         1
+                                         various chicken meat products       0.00      0.00      0.00         3
+                               various chilled or frozen pork products       0.00      0.00      0.00         2
+                                                 various fish products       0.00      0.00      0.00         3
+                                                various pasta products       0.00      0.00      0.00         2
+                                                  various poultry meat       0.00      0.00      0.00         2
+                                               various prepared dishes       0.00      0.00      0.00         1
+                                    various ready-to-eat meat products       0.00      0.00      0.00         2
+                                        various vegetable preparations       0.00      0.00      0.00         5
+                                                varnishes and coatings       0.00      0.00      0.00         4
+                                                                  veal       0.00      0.00      0.00         2
+                                                             veal meat       0.00      0.00      0.00         2
+                                                  veal meat and offals       0.00      0.00      0.00         2
+                                                        vegan sausages       0.00      0.00      0.00         2
+                                              vegetable based products       0.00      0.00      0.00         1
+                                                       vegetable broth       0.00      0.00      0.00         4
+                                                      vegetable burger       0.00      0.00      0.00         1
+                                                      vegetable cheese       0.00      0.00      0.00         1
+                                                  vegetable crispbakes       0.00      0.00      0.00         4
+                                                         vegetable mix       0.00      0.00      0.00         2
+                                                 vegetable preparation       0.00      0.00      0.00         1
+                                          vegetable ready to eat meals       0.00      0.00      0.00         3
+                                                     vegetable samosas       0.00      0.00      0.00         2
+                                                       vegetable snack       0.00      0.00      0.00         3
+                                                              vitamins       0.00      0.00      0.00         1
+                                                   vitamins supplement       0.00      0.00      0.00         1
+                                                                 vodka       0.00      0.00      0.00         2
+                                                               walnuts       0.00      0.00      0.00         1
+                                           water for human consumption       0.00      0.00      0.00         3
+                                                     water for infants       0.00      0.00      0.00         3
+                                                           watermelons       0.00      0.00      0.00         2
+                                                              waxberry       0.00      0.00      0.00         3
+                                                    weight loss coffee       0.00      0.00      0.00         3
+                                                                 wheat       0.00      0.00      0.00         1
+                                                          whey protein       0.00      0.00      0.00         1
+                                                                whisky       0.00      0.00      0.00         1
+                                                           white beans       0.00      0.00      0.00         1
+                                                     white bread flour       0.00      0.00      0.00         2
+                                                          white cheese       0.00      0.00      0.00         2
+                                                       white chocolate       0.00      0.00      0.00         1
+                                                   white lasagna sauce       0.00      0.00      0.00         3
+                                                    white mould cheese       0.00      0.00      0.00         1
+                                                   white mustard seeds       0.00      0.00      0.00         2
+                                                         whole chicken       0.00      0.00      0.00         3
+                                                                  wine       0.00      0.00      0.00         7
+                                                                 wraps       0.00      0.00      0.00         4
+                                                           yellow peas       0.00      0.00      0.00         1
+                                                               yoghurt       0.00      0.00      0.00         6
+                                                        yogurt raisins       0.00      0.00      0.00         2
+
+                                                              accuracy                           0.01      2720
+                                                             macro avg       0.00      0.00      0.00      2720
+                                                          weighted avg       0.00      0.01      0.00      2720
