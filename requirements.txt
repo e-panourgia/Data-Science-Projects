@@ -1,0 +1,11 @@
+numpy
+pandas
+scikit-learn
+xgboost
+joblib
+nltk
+imblearn
+deep-translator
+langid
+matplotlib
+seaborn
