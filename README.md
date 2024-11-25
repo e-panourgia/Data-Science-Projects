@@ -2,6 +2,37 @@
 
 This Repository conatins coode related to the competition hosted on [Competition_Link](https://food-hazard-detection-semeval-2025.github.io/)
 
+### Python Packages Requirements && Project Instalation 
+- Clone the Repository via running to the terminal and go to the main folder of the Project: 
+```bash 
+    git clone git@github.com:e-panourgia/Food-Hazard-Detection-Challenge.git
+    cd Food-Hazard-Detection-Challenge
+```
+- This project depends on several Python libraries for data manipulation, machine learning, natural language processing, visualization, and more. The required libraries are listed in the `requirements.txt` file.
+- Create virtual environemt and install to it the libaries of `requirements.txt`
+    - Adapt Jupyter Notepook to "see" the virtual enviroment
+- Commands to Run:
+```bash
+# Step 1: Create virtual environment
+python3 -m venv venv
+
+# Step 2: Activate virtual environment
+source venv/bin/activate
+
+# Step 3: Install dependencies
+pip install -r requirements.txt
+
+# Step 4: Set up Jupyter kernel
+pip install ipykernel
+python -m ipykernel install --user --name=venv --display-name "Python (venv)"
+``` 
+- Alternatively, dowload them with the comannd !pip install NAMES_OF_NEEDED_LIBRARIES 
+    - E.G. 
+    ```bash 
+    !pip install numpy pandas scikit-learn xgboost joblib nltk imblearn deep-translator langid matplotlib seaborn
+    ```
+- Usage of `Python 3.10.13` 
+
 ## Firstly it will mentioned teh data exploration and preprocess part.
 
 ### Data
