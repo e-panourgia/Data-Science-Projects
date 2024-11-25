@@ -65,3 +65,4 @@ Note: The folder `reports` cotanins the analytical classifcagion report per labe
     - (ST2) Food hazard and product “vector” detection, predicting the exact hazard and product.
 
 - `From the table above, it is obcious that the "best" scores in both subtask 1 and sub task 2 is X-Boost with input the text`.
+- Furthermore, it seems that across all scores per title and text, text (te) scores are equal or higher than title (ti).
