@@ -74,6 +74,27 @@ Note: The folder `reports` cotanins the analytical classifcagion report per labe
 **Key Notw** Because to impelement with desipline the benchmark analysis bearing in mind that I had to run two times all models for each dataset that is augmented dataset and initial dataset having the intial data with basic nlp preprocess only, the training jupyter `augmented_training_process` has more comments in comparison to `initila_training_process`, so read it firstly, as many things are similar in intiial data too. We made it to save time. 
 
 ### Table based on `Augmented Data` with sub tasks custom evaluation for all models for all input s 
+- Notes for reading teh below tables 
+    - Note 1: 
+        - `LR` = (meaning) `Logistic Regresion`
+        - `RF` = (meaning) `Random Forest`
+        - `XB` = (menaing) `X-Boost`
+        - ti = (meaning) title
+        - te = (meaning) text 
+
+    - For example, LD-ti = (meaning) Logistic Regression as model and title as input.  
+
+    - Note 2: The SemEval-Task combines two sub-tasks:
+        - (ST1) Text classification for food hazard prediction, predicting the type of hazard and product.
+        - (ST2) Food hazard and product “vector” detection, predicting the exact hazard and product.
+
+    - Note 3: 
+        - During Benchmark Analysis we used TF-idf for all of the aforementioned models.
+
+    - Note 4 : 
+        - Random and Majority Classifier being our baselines, they dont have defined inpute (ti or te) as they are independent of X.
+
+
 - `all sub taks` menaing sub task 1 and sub task 2 of the competition 
 - `all models` meaning `Logistic Regresiion`, `Random Forest` amd `X-Boost`
 - `all inputs` meaning `title` , and `text`
@@ -105,34 +126,10 @@ Note: The folder `reports` cotanins the analytical classifcagion report per labe
 | **RF-te** | ~0.51 | ~0.24 |
 | **XB-te** | ~`0.61`| ~`0.28` |
 
-- Note for Initial Data` the best model is again X-Boost for text input. 
-
-- Note 1: 
-    - `LR` = (meaning) `Logistic Regresion`
-    - `RF` = (meaning) `Random Forest`
-    - `XB` = (menaing) `X-Boost`
-    - ti = (meaning) title
-    - te = (meaning) text 
-
-- For example, LD-ti = (meaning) Logistic Regression as model and title as input.  
-
-- Note 2: The SemEval-Task combines two sub-tasks:
-    - (ST1) Text classification for food hazard prediction, predicting the type of hazard and product.
-    - (ST2) Food hazard and product “vector” detection, predicting the exact hazard and product.
-
-- Note 3: 
-    - During Benchmark Analysis we used TF-idf for all of the aforementioned models.
-
-- Note 4 : 
-    - Random and Majority Classifier being our baselines, they dont have defined inpute (ti or te) as they are independent of X.
+- Note for `Initial Data` the best model is again X-Boost for text input. 
 
 - `From the table above, it is obcious that the "best" scores in both subtask 1 and sub task 2 is X-Boost with input the text`.
 - Furthermore, it seems that across all scores per title and text, text (te) scores are equal or higher than title (ti).
-
-
-
-# Initial Data Without Data Augmented 
-TODO
 
 ### Limitations - Difiiculties 
 - In the given time, we could not try Oversampling Methods (like `SMOTE`), as SMOTE in Combination with TF-Idf requires resources (time and memory). 
