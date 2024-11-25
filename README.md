@@ -85,15 +85,15 @@ Note: The folder `reports` cotanins the analytical classifcagion report per labe
 
 - For example, LD-ti = (meaning) Logistic Regression as model and title as input.  
 
+- Note 2: The SemEval-Task combines two sub-tasks:
+    - (ST1) Text classification for food hazard prediction, predicting the type of hazard and product.
+    - (ST2) Food hazard and product “vector” detection, predicting the exact hazard and product.
+
 - Note 3: 
     - During Benchmark Analysis we used TF-idf for all of the aforementioned models.
 
 - Note 4 : 
     - Random and Majority Classifier being our baselines, they dont have defined inpute (ti or te) as they are independent of X.
-
-- Note 2: The SemEval-Task combines two sub-tasks:
-    - (ST1) Text classification for food hazard prediction, predicting the type of hazard and product.
-    - (ST2) Food hazard and product “vector” detection, predicting the exact hazard and product.
 
 - `From the table above, it is obcious that the "best" scores in both subtask 1 and sub task 2 is X-Boost with input the text`.
 - Furthermore, it seems that across all scores per title and text, text (te) scores are equal or higher than title (ti).
