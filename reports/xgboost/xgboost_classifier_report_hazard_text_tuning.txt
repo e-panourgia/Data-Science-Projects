@@ -1,0 +1,135 @@
+Classification Report for hazard_text_tuning:                                                   precision    recall  f1-score   support
+
+                                        Aflatoxin       1.00      0.80      0.89         5
+                                   abnormal smell       1.00      1.00      1.00         7
+                                  alcohol content       0.91      1.00      0.95        10
+                                        alkaloids       0.90      1.00      0.95         9
+                                        allergens       0.80      0.57      0.67         7
+                                           almond       0.81      0.84      0.83        31
+             altered organoleptic characteristics       1.00      1.00      1.00        10
+                                        amygdalin       1.00      1.00      1.00         9
+                           antibiotics, vet drugs       0.80      0.67      0.73         6
+                                    bacillus spp.       1.00      1.00      1.00        10
+                             bad smell / off odor       1.00      0.83      0.91         6
+                                    bone fragment       0.67      0.29      0.40         7
+                                       brazil nut       1.00      1.00      1.00         8
+                                bulging packaging       0.83      0.71      0.77        14
+                                           cashew       0.65      0.73      0.69        15
+                      celery and products thereof       0.80      0.67      0.73         6
+                                          cereals       1.00      0.33      0.50         6
+   cereals containing gluten and products thereof       0.86      0.83      0.85       102
+                                         chemical       1.00      0.86      0.92         7
+                 chemical compound (high content)       0.89      1.00      0.94         8
+                 chemical compound (unauthorised)       0.80      1.00      0.89        12
+                                         chlorine       1.00      1.00      1.00         9
+                            clostridium botulinum       0.89      0.94      0.92        18
+                                          coconut       1.00      1.00      1.00         9
+                                        coliforms       1.00      0.67      0.80         6
+                          compositional deviation       0.92      1.00      0.96        11
+                                      contaminant       1.00      1.00      1.00        10
+                                  cronobacter spp       1.00      1.00      1.00         6
+                 crustaceans and products thereof       1.00      0.83      0.91         6
+                                       cyclospora       1.00      1.00      1.00         5
+                                   dairy products       1.00      1.00      1.00         9
+                                damaged packaging       1.00      0.33      0.50         6
+                                          dioxins       1.00      1.00      1.00         9
+                      e 425 - konjac unauthorised       0.83      0.83      0.83         6
+                        eggs and products thereof       0.78      0.75      0.76        88
+                                    enteroviruses       0.89      1.00      0.94         8
+                                 escherichia coli       0.92      0.93      0.93        87
+                           false marketing claims       1.00      1.00      1.00         9
+                        fish and products thereof       1.00      0.27      0.43        11
+                                   foreign bodies       0.85      0.73      0.79        15
+                                   glass fragment       0.83      0.84      0.84        45
+                                        haloxyfop       1.00      1.00      1.00         9
+                                         hazelnut       0.00      0.00      0.00         5
+                                     heavy metals       1.00      0.71      0.83        21
+                           high content of copper       1.00      1.00      1.00        13
+                          high content of cyanide       0.86      1.00      0.92         6
+                         high content of vitamins       1.00      0.75      0.86         8
+                              improper conditions       0.60      0.33      0.43         9
+                               improper packaging       0.86      0.75      0.80         8
+                               incorrect labeling       0.85      0.52      0.65        21
+                           incorrect use by dates       0.82      0.90      0.86        10
+                                          insects       0.78      0.70      0.74        10
+                                inspection issues       0.78      0.94      0.85        65
+             insufficient labelling/documentation       0.71      0.45      0.56        11
+                         labelling/misdescription       0.57      0.44      0.50         9
+                           listeria monocytogenes       0.99      0.98      0.99       269
+                                     listeria spp       0.75      1.00      0.86         6
+                                   metal fragment       0.87      0.95      0.91        65
+                    microbiological contamination       0.60      0.50      0.55         6
+                        milk and products thereof       0.86      0.95      0.90       252
+                                      misbranding       1.00      0.60      0.75         5
+                                   misdescription       0.71      0.71      0.71        17
+                                      mislabelled       1.00      0.67      0.80         6
+                    molluscs and products thereof       1.00      1.00      1.00         8
+                                           moulds       0.92      0.75      0.83        16
+                     mustard and products thereof       0.97      0.95      0.96        38
+                                         nitrogen       1.00      1.00      1.00         9
+                        non compliance with HACCP       0.89      1.00      0.94         8
+                                        norovirus       1.00      0.83      0.91         6
+                                       novel food       1.00      0.62      0.77         8
+                                             nuts       0.50      0.44      0.47         9
+                                       ochratoxin       1.00      1.00      1.00         9
+                                   organochlorine       1.00      1.00      1.00        10
+                                            other       0.71      0.87      0.78        94
+                         other misbranding issues       1.00      1.00      1.00         9
+                             other not classified       0.92      0.80      0.86        15
+            other not classified allergen hazards       0.89      0.89      0.89         9
+          other not classified biological hazards       0.50      0.50      0.50         4
+            other not classified chemical hazards       0.77      0.77      0.77        13
+  other not classified hazards for foreign bodies       1.00      0.20      0.33         5
+                                 packaging defect       0.69      0.75      0.72        12
+                                             pahs       1.00      1.00      1.00         8
+       paralytic shellfish poisoning (psp) toxins       1.00      1.00      1.00         9
+                              pathogenic bacteria       0.50      0.20      0.29         5
+                                          patulin       1.00      0.80      0.89         5
+                     peanuts and products thereof       0.85      0.92      0.89        92
+                                        pecan nut       0.71      0.83      0.77         6
+                                   phenylpyrazole       1.00      1.00      1.00         9
+                                   pieces of wood       1.00      1.00      1.00         8
+                                    pistachio nut       0.67      1.00      0.80         6
+                                 plastic fragment       0.75      0.91      0.82        81
+                 polycyclic aromatic hydrocarbons       1.00      1.00      1.00         8
+                              poor hygienic state       0.80      0.67      0.73         6
+                    poor or insufficient controls       0.75      0.82      0.78        11
+                                       processing       0.93      0.67      0.78        21
+                 product category/characteristics       0.88      1.00      0.93         7
+                                 pseudomonas spp.       0.86      0.86      0.86         7
+                                 rubber fragments       0.80      0.44      0.57         9
+                                       salmonella       0.98      0.99      0.99       262
+                sesame seeds and products thereof       0.85      0.73      0.79        15
+                    soybeans and products thereof       0.62      0.72      0.66        67
+                    specified risk material (srm)       0.67      0.80      0.73         5
+                                         spoilage       0.88      0.78      0.82         9
+                       staphylococcal enterotoxin       0.90      1.00      0.95         9
+                                   staphylococcus       1.00      0.57      0.73         7
+                                           stones       1.00      0.67      0.80         6
+                      sulfamethazine unauthorised       0.88      0.70      0.78        10
+                              sulphates/sulphites       0.71      0.71      0.71         7
+                                  sulphur dioxide       0.90      1.00      0.95        19
+                    sulphur dioxide and sulphites       0.89      0.90      0.89        60
+                                        tampering       1.00      1.00      1.00         9
+                                taste disturbance       0.80      0.67      0.73         6
+too high content of fluorinated organic chemicals       1.00      1.00      1.00         9
+   too high content of tetrahydrocannabinol (THC)       1.00      1.00      1.00         6
+                                            toxin       0.93      0.87      0.90        15
+                      unauthorised colour sudan 4       0.88      1.00      0.93         7
+                              unauthorised import       1.00      0.80      0.89         5
+                            unauthorised operator       1.00      0.89      0.94         9
+               unauthorised placing on the market       0.62      0.83      0.71         6
+            unauthorised substance ethylene oxide       1.00      1.00      1.00        27
+                unauthorised substance sildenafil       1.00      1.00      1.00         8
+                              undeclared additive       0.89      0.73      0.80        11
+                           undeclared constituent       1.00      0.20      0.33         5
+                      unfit for human consumption       0.89      0.89      0.89         9
+                                       vibrio spp       1.00      1.00      1.00         9
+                                            virus       1.00      1.00      1.00         8
+                                           walnut       0.33      0.12      0.18         8
+                                           yeasts       1.00      0.88      0.93         8
+
+                                         accuracy                           0.88      2720
+                                        macro avg       0.88      0.81      0.82      2720
+                                     weighted avg       0.88      0.88      0.87      2720
+F1 Score: 0.824
