@@ -1,0 +1,351 @@
+Classification Report for product_text:
+                                                   precision    recall  f1-score   support
+
+                           Catfishes (freshwater)       0.75      0.75      0.75         4
+                            Fishes not identified       0.10      0.25      0.14         4
+                         Not classified pork meat       0.00      0.00      0.00         1
+                       Pangas catfishes (generic)       0.00      0.00      0.00         1
+                                    Veggie Burger       0.00      0.00      0.00         1
+                                  alfalfa sprouts       1.00      0.67      0.80         3
+                                            algae       0.00      0.00      0.00         1
+                            all purpose seasoning       1.00      1.00      1.00         1
+                                    almond powder       0.00      0.00      0.00         1
+                                  almond products       0.50      0.50      0.50         2
+                                          almonds       1.00      0.20      0.33         5
+                                       angus beef       0.00      0.00      0.00         1
+                                      apple juice       0.29      0.67      0.40         3
+                                  apricot kernels       1.00      1.00      1.00         2
+                                        baby food       0.00      0.00      0.00         3
+                                  bakery products       0.50      0.20      0.29         5
+                                       baking mix       0.00      0.00      0.00         3
+                                   barbecue sauce       0.00      0.00      0.00         1
+                                             bars       0.60      1.00      0.75         3
+                                basil pesto sauce       0.50      0.33      0.40         3
+                                       bean sauce       0.00      0.00      0.00         2
+                                             beef       0.14      0.17      0.15         6
+                                        beef meat       0.00      0.00      0.00         1
+                                    beef products       0.50      0.14      0.22         7
+                                   beef trimmings       0.00      0.00      0.00         1
+                                             beer       0.75      0.60      0.67         5
+                                         beverage       0.00      0.00      0.00         1
+                                         biscuits       0.50      0.67      0.57         9
+                           bitter apricot kernels       1.00      1.00      1.00         1
+                                      blue cheese       0.00      0.00      0.00         1
+                                      blueberries       1.00      1.00      1.00         1
+                                    boneless beef       0.00      0.00      0.00         1
+                                    bottled water       0.00      0.00      0.00         2
+                                      brazil nuts       0.00      0.00      0.00         1
+                                            bread       0.20      0.17      0.18         6
+                      bread and products therefor       0.00      0.00      0.00         1
+                                      bread crumb       0.00      0.00      0.00         1
+                                breakfast cereals       0.50      1.00      0.67         1
+                                      brie cheese       0.00      0.00      0.00         2
+                                         broccoli       0.50      0.50      0.50         2
+                                       brown rice       0.00      0.00      0.00         1
+                                         brownies       0.00      0.00      0.00         2
+                                             buns       1.00      1.00      1.00         1
+                                          burrata       0.00      0.00      0.00         1
+                           burrito (ready to eat)       0.50      0.50      0.50         2
+                                  cake decoration       1.00      1.00      1.00         1
+                                            cakes       0.44      0.79      0.57        19
+                                        camembert       0.00      0.00      0.00         1
+                                          candies       0.25      0.11      0.15         9
+                                      canned corn       1.00      1.00      1.00         1
+                              carbonated beverage       0.00      0.00      0.00         2
+                                           cashew       0.33      1.00      0.50         1
+                                      cauliflower       0.00      0.00      0.00         1
+                                     cbd products       1.00      0.33      0.50         3
+                                      cereal bars       0.00      0.00      0.00         2
+                                          cereals       0.00      0.00      0.00         1
+                                           cheese       0.30      0.71      0.43        14
+                                    cheese spread       0.00      0.00      0.00         2
+                                       chia seeds       0.00      0.00      0.00         1
+                                          chicken       0.50      0.17      0.25         6
+                           chicken based products       0.44      0.78      0.56        32
+                                   chicken breast       0.43      0.50      0.46         6
+                                  chicken dippers       1.00      1.00      1.00         1
+                              chicken noodle soup       0.00      0.00      0.00         1
+                             chicken preparations       0.25      0.20      0.22         5
+                        chicken products - frozen       0.00      0.00      0.00         2
+                            chilled pork sausages       0.00      0.00      0.00         1
+                                    chilli powder       0.50      1.00      0.67         1
+                                     chilli sauce       0.50      1.00      0.67         2
+                                        chocolate       0.00      0.00      0.00         5
+                  chocolate and products therefor       0.00      0.00      0.00         1
+                                   chocolate bars       0.29      0.50      0.36         4
+                                  chocolate chips       0.00      0.00      0.00         1
+                          chocolate confectionery       0.00      0.00      0.00         1
+                                   chocolate eggs       0.00      0.00      0.00         2
+                               chocolate products       0.20      0.20      0.20         5
+                               chocolate truffles       0.00      0.00      0.00         1
+                                 chocolate wafers       1.00      1.00      1.00         1
+                                       chocolates       0.00      0.00      0.00         1
+                                          chorizo       0.50      0.33      0.40         3
+                                  chorizo sausage       0.00      0.00      0.00         1
+                                            cider       1.00      1.00      1.00         1
+                                   cinnamon rolls       0.00      0.00      0.00         1
+                                            clams       0.00      0.00      0.00         1
+                                   clams (canned)       0.00      0.00      0.00         1
+                                    coconut juice       1.00      1.00      1.00         3
+                                     coconut milk       0.00      0.00      0.00         2
+                               coconut milk drink       0.00      0.00      0.00         1
+                                      coconut oil       0.00      0.00      0.00         1
+                                         coconuts       0.50      0.75      0.60         4
+                                     coffee beans       0.00      0.00      0.00         1
+                                     coffee drink       0.00      0.00      0.00         1
+                              concentrated apples       0.00      0.00      0.00         1
+                                    confectionery       1.00      0.33      0.50         3
+                     confectionery for decoration       0.00      0.00      0.00         1
+                                   cooked chicken       0.00      0.00      0.00         4
+                                       cooked ham       0.00      0.00      0.00         1
+                                          cookies       0.62      0.88      0.73        17
+                                    cooking sauce       0.00      0.00      0.00         1
+                                        coriander       0.00      0.00      0.00         1
+                                             corn       0.50      0.43      0.46         7
+                                        cous cous       0.00      0.00      0.00         1
+                                         crackers       1.00      0.33      0.50         3
+                                     cream cheese       0.00      0.00      0.00         2
+                              cream chocolate pie       0.00      0.00      0.00         1
+                               crisp cheese snack       0.00      0.00      0.00         1
+                                       croissants       0.00      0.00      0.00         1
+                                     cumin powder       1.00      1.00      1.00         1
+                                         cupcakes       0.00      0.00      0.00         2
+                                  cured pork meat       0.00      0.00      0.00         1
+                                            curry       1.00      1.00      1.00         1
+                                          custard       0.00      0.00      0.00         2
+                    dark chocolate coated almonds       0.00      0.00      0.00         2
+                                  dark chocolates       0.25      0.43      0.32         7
+                                            dates       0.00      0.00      0.00         5
+                                         desserts       0.50      0.40      0.44         5
+                               dietary supplement       0.00      0.00      0.00         4
+dietetic foods, food supplements, fortified foods       0.00      0.00      0.00         1
+                                        dip-sauce       0.00      0.00      0.00         1
+                                         dressing       1.00      1.00      1.00         1
+                                     dried apples       0.00      0.00      0.00         1
+                                   dried apricots       1.00      0.67      0.80         3
+                                  dried beef meat       0.50      0.40      0.44         5
+                                dried cranberries       0.00      0.00      0.00         1
+                                       dried figs       0.00      0.00      0.00         1
+                      dried fruits with chocolate       0.00      0.00      0.00         1
+                                  dried mushrooms       0.25      0.50      0.33         2
+                                      dried plums       1.00      1.00      1.00         2
+                             dried shrimp noodles       0.00      0.00      0.00         1
+                        drinking chocolate powder       0.00      0.00      0.00         1
+                                             duck       0.00      0.00      0.00         2
+                                        dumplings       0.00      0.00      0.00         3
+                                             eggs       0.78      1.00      0.88         7
+                          energy and protein bars       0.00      0.00      0.00         1
+                                      fajita meal       0.00      0.00      0.00         1
+                                   feed materials       0.00      0.00      0.00         1
+                                      feta cheese       0.00      0.00      0.00         1
+                           fish and fish products       0.00      0.00      0.00         1
+                                         fish roe       0.67      1.00      0.80         2
+                                         flaxseed       0.00      0.00      0.00         1
+                                            flour       0.62      0.71      0.67         7
+                                  food supplement       0.00      0.00      0.00         5
+                                  fresh mushrooms       1.00      1.00      1.00         7
+                                       fresh pork       1.00      1.00      1.00         1
+               fresh processed beef meat products       0.50      0.50      0.50         2
+                                 fresh vegetables       0.00      0.00      0.00         2
+                                      frozen beef       0.00      0.00      0.00         3
+                              frozen beef patties       1.00      0.33      0.50         3
+                             frozen beef products       0.00      0.00      0.00         1
+                            frozen beef trimmings       0.00      0.00      0.00         1
+                              frozen fish fillets       1.00      1.00      1.00         1
+                                   frozen lobster       0.00      0.00      0.00         1
+                                      frozen peas       0.33      1.00      0.50         1
+                                     frozen pizza       0.00      0.00      0.00         1
+                         frozen pork preparations       0.00      0.00      0.00         1
+                          frozen poultry products       0.00      0.00      0.00         1
+                                frozen vegetables       0.00      0.00      0.00         1
+                            frozen vegetables mix       0.00      0.00      0.00         1
+                                       fruit bars       0.00      0.00      0.00         1
+                                      fruit juice       0.00      0.00      0.00         1
+                                       fruit pies       0.00      0.00      0.00         1
+                                      fruit punch       0.00      0.00      0.00         1
+                                      fruit salad       0.00      0.00      0.00         1
+                                    ginger powder       0.00      0.00      0.00         2
+                          golden raisins/sultanas       0.33      1.00      0.50         1
+                                          granola       0.00      0.00      0.00         5
+                                   grated coconut       1.00      0.50      0.67         2
+                                        gravy mix       0.00      0.00      0.00         1
+                                      green pesto       0.00      0.00      0.00         1
+                             grissini breadsticks       0.00      0.00      0.00         1
+                                      ground beef       0.57      1.00      0.73        12
+                                        guacamole       1.00      1.00      1.00         1
+                                  halloumi cheese       0.00      0.00      0.00         3
+                                              ham       0.50      0.56      0.53         9
+                                          herring       0.33      0.67      0.44         3
+                                            honey       0.67      1.00      0.80         2
+                              horseradish in jars       0.00      0.00      0.00         2
+                                        ice cream       0.72      0.97      0.83        37
+                                ices and desserts       0.00      0.00      0.00         1
+                                   infant formula       1.00      0.80      0.89         5
+                                   instant coffee       1.00      1.00      1.00         1
+                                  instant noodles       1.00      1.00      1.00         1
+                                              jam       0.50      0.50      0.50         2
+                                          jellies       1.00      1.00      1.00         7
+                                           juices       0.00      0.00      0.00         2
+                                          lasagne       0.00      0.00      0.00         1
+                                          lentils       0.00      0.00      0.00         1
+                                          lettuce       0.67      1.00      0.80         2
+                                        liquorice       0.00      0.00      0.00         1
+                                        lollipops       0.00      0.00      0.00         1
+                                   macadamia nuts       1.00      1.00      1.00         1
+                                         mackerel       1.00      1.00      1.00         1
+                                            mango       0.00      0.00      0.00         3
+                                      marshmalows       1.00      1.00      1.00         1
+                        mashed chickpeas (hummus)       1.00      0.33      0.50         3
+                                       mayonnaise       0.00      0.00      0.00         2
+                                      melon seeds       0.00      0.00      0.00         1
+                                             milk       0.88      0.78      0.82         9
+                           milk and milk products       0.00      0.00      0.00         1
+                   milk chocolate covered raisins       0.50      1.00      0.67         1
+                                  milk chocolates       0.00      0.00      0.00         2
+                                       milk drink       0.00      0.00      0.00         1
+                                      milk powder       0.00      0.00      0.00         1
+                                    milk products       0.00      0.00      0.00         1
+                                    milk proteins       0.00      0.00      0.00         2
+                                           millet       0.00      0.00      0.00         1
+                                      minced beef       0.00      0.00      0.00         2
+                                   minced chicken       0.00      0.00      0.00         1
+                                      minced pork       0.00      0.00      0.00         3
+                                    mineral water       0.00      0.00      0.00         1
+                      mitragyna speciosa (kratom)       0.50      1.00      0.67         1
+                                 mixed vegetables       0.00      0.00      0.00         1
+                                       mozzarella       0.00      0.00      0.00         1
+                                mozzarella cheese       0.00      0.00      0.00         1
+                                           muesli       0.00      0.00      0.00         4
+                                          muffins       0.33      0.33      0.33         3
+                                        mushrooms       0.00      0.00      0.00         1
+                                          mussels       0.00      0.00      0.00         1
+                          non-alcoholic beverages       0.00      0.00      0.00         2
+                                           noodle       0.00      0.00      0.00         1
+                                          noodles       0.00      0.00      0.00         1
+                                             nuts       0.00      0.00      0.00         2
+                                             oats       0.00      0.00      0.00         1
+                                        olive oil       0.00      0.00      0.00         1
+                                           olives       0.50      0.33      0.40         3
+                                           onions       0.33      0.67      0.44         3
+                             other dairy products       0.50      0.40      0.44         5
+               other not classified meat products       0.33      0.09      0.14        11
+                              other types of meat       0.00      0.00      0.00         6
+                         other water-based drinks       0.00      0.00      0.00         1
+                                          oysters       0.67      1.00      0.80         2
+                                         palm oil       1.00      1.00      1.00         1
+                                         pancakes       0.00      0.00      0.00         1
+                                           papaya       0.00      0.00      0.00         1
+                                          parsley       0.00      0.00      0.00         1
+                                            pasta       0.00      0.00      0.00         2
+                                   pasta products       0.00      0.00      0.00         1
+                                      pasta salad       1.00      1.00      1.00         1
+                                      pasta sauce       0.00      0.00      0.00         2
+                                 pasteurized milk       0.00      0.00      0.00         1
+                                           pastry       0.00      0.00      0.00         2
+                                  pastry products       0.25      0.33      0.29         3
+                                          peanuts       0.46      0.75      0.57         8
+                                  pecorino cheese       0.00      0.00      0.00         1
+                                            pesto       0.00      0.00      0.00         1
+                                         pet feed       0.75      0.60      0.67         5
+                             pickled grape leaves       0.00      0.00      0.00         1
+                                  pickled peppers       0.00      0.00      0.00         1
+                                  pig meat - pork       0.00      0.00      0.00         1
+                                   pistachio nuts       0.67      0.86      0.75         7
+                                            pizza       0.33      0.50      0.40         4
+                                         plastics       0.00      0.00      0.00         1
+                                         pop corn       0.00      0.00      0.00         1
+                                            poppy       1.00      0.50      0.67         2
+                                        pork meat       0.00      0.00      0.00         1
+                                     pork sausage       0.43      0.60      0.50         5
+                                     potato chips       1.00      0.50      0.67         4
+                                potato croquettes       0.00      0.00      0.00         1
+                                     potato salad       0.50      1.00      0.67         1
+                                         potatoes       0.00      0.00      0.00         2
+              precooked cooked beef meat products       0.00      0.00      0.00         3
+                                  prepacked salad       0.00      0.00      0.00         1
+                                    prepared dish       0.00      0.00      0.00         2
+                       prepared dishes and snacks       0.00      0.00      0.00         2
+                                  prepared salads       0.00      0.00      0.00         3
+                                       prosciutto       0.00      0.00      0.00         1
+                                      protein bar       1.00      0.33      0.50         3
+                                    protein drink       0.00      0.00      0.00         1
+                                   protein powder       0.50      0.33      0.40         3
+                                          pudding       0.00      0.00      0.00         1
+                                             pâté       0.00      0.00      0.00         1
+                                          raisins       0.00      0.00      0.00         2
+                                          ravioli       0.00      0.00      0.00         3
+                                    raw beef meat       0.67      1.00      0.80         4
+                             raw goat milk cheese       0.00      0.00      0.00         1
+                                         raw milk       0.50      1.00      0.67         1
+                        ready to eat - cook meals       0.08      0.33      0.13         6
+                                             rice       0.00      0.00      0.00         2
+                                       rice cakes       0.00      0.00      0.00         1
+                                    rice crackers       0.00      0.00      0.00         1
+                                       rice snack       0.00      0.00      0.00         1
+                                            rolls       0.00      0.00      0.00         1
+                                   salad dressing       0.00      0.00      0.00         2
+                                           salads       0.36      0.36      0.36        11
+                                           salami       1.00      0.40      0.57         5
+                                           salmon       0.90      0.82      0.86        11
+                                       sandwiches       0.17      0.17      0.17         6
+                                         sardines       0.00      0.00      0.00         2
+                                            sauce       0.25      0.25      0.25         4
+                                           sauces       0.00      0.00      0.00         5
+                                          sausage       0.17      0.12      0.14         8
+                                 sausage products       0.00      0.00      0.00         7
+                                        seasoning       0.00      0.00      0.00         2
+                             seaweed preparations       0.00      0.00      0.00         1
+                                 semi-soft cheese       1.00      0.50      0.67         2
+                                           sesame       0.33      1.00      0.50         1
+                                     sesame seeds       1.00      0.67      0.80         3
+                                          shrimps       0.67      1.00      0.80         4
+                                       sliced ham       0.00      0.00      0.00         2
+                                   smoked sausage       0.00      0.00      0.00         2
+                                   snack crackers       0.00      0.00      0.00         1
+                                        snack mix       0.00      0.00      0.00         4
+                                 snacks (various)       0.00      0.00      0.00         2
+                                      soft cheese       0.00      0.00      0.00         1
+                                      soft drinks       0.00      0.00      0.00         1
+                                             soup       0.36      0.67      0.47         6
+                                          soybean       0.00      0.00      0.00         1
+                                        spice mix       0.00      0.00      0.00         2
+                                      sport drink       0.00      0.00      0.00         1
+                                           spread       0.00      0.00      0.00         1
+                                     spring rolls       0.67      1.00      0.80         2
+                                            squid       0.00      0.00      0.00         1
+                                   stuffed pastry       0.00      0.00      0.00         1
+                                   sunflower seed       0.20      0.50      0.29         2
+                                       sweeteners       0.00      0.00      0.00         1
+                                           sweets       0.00      0.00      0.00         1
+                                           tahini       0.33      1.00      0.50         1
+                                              tea       0.00      0.00      0.00         1
+                      thermal processed beef meat       0.17      0.25      0.20         4
+                      thermal processed pork meat       0.21      0.50      0.30         6
+                                       tiger nuts       0.00      0.00      0.00         1
+                                             tofu       1.00      0.50      0.67         2
+                                     tomato sauce       0.00      0.00      0.00         2
+                                         tomatoes       0.00      0.00      0.00         1
+                                           trouts       0.00      0.00      0.00         1
+                                             tuna       0.00      0.00      0.00         4
+                   turkey and turkey preparations       1.00      0.60      0.75         5
+                            turkey based products       0.00      0.00      0.00         2
+                                   tzatziki sauce       1.00      1.00      1.00         1
+                          various bakery products       0.00      0.00      0.00         2
+                                  various cheeses       0.00      0.00      0.00         1
+                           various pasta products       0.00      0.00      0.00         2
+                                             veal       1.00      0.33      0.50         3
+                         vegetable based products       0.00      0.00      0.00         1
+                            vegetable preparation       0.00      0.00      0.00         1
+                                          waffles       0.00      0.00      0.00         1
+                      water for human consumption       0.00      0.00      0.00         1
+                                     whey protein       0.00      0.00      0.00         1
+                                  white chocolate       0.00      0.00      0.00         1
+                               white mould cheese       0.00      0.00      0.00         1
+                                             wine       0.50      0.67      0.57         3
+                                            wraps       0.00      0.00      0.00         7
+                                          yoghurt       0.33      0.75      0.46         4
+
+                                        micro avg       0.44      0.40      0.42       896
+                                        macro avg       0.25      0.26      0.24       896
+                                     weighted avg       0.36      0.40      0.36       896
+F1 Score: 0.205

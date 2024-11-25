@@ -1,0 +1,108 @@
+Classification Report for hazard_text:
+                                                   precision    recall  f1-score   support
+
+                                        Aflatoxin       0.00      0.00      0.00         2
+                                   abnormal smell       0.00      0.00      0.00         1
+                                        alkaloids       0.00      0.00      0.00         1
+                                        allergens       0.00      0.00      0.00         2
+                                           almond       0.55      0.65      0.59        17
+                                        amygdalin       0.00      0.00      0.00         1
+                           antibiotics, vet drugs       0.00      0.00      0.00         2
+                                    bacillus spp.       0.00      0.00      0.00         6
+                             bad smell / off odor       0.00      0.00      0.00         1
+                                    bone fragment       0.00      0.00      0.00         3
+                                bulging packaging       0.00      0.00      0.00         9
+                                           cashew       0.00      0.00      0.00        12
+                      celery and products thereof       0.00      0.00      0.00         2
+                                          cereals       0.00      0.00      0.00         2
+   cereals containing gluten and products thereof       0.82      0.90      0.86        50
+                                         chemical       0.00      0.00      0.00         2
+                 chemical compound (unauthorised)       0.00      0.00      0.00         2
+                            clostridium botulinum       0.75      0.43      0.55         7
+                                          coconut       0.00      0.00      0.00         2
+                                      contaminant       0.00      0.00      0.00         1
+                                  cronobacter spp       0.00      0.00      0.00         4
+                 crustaceans and products thereof       0.00      0.00      0.00         1
+                                       cyclospora       0.00      0.00      0.00         3
+                                damaged packaging       0.00      0.00      0.00         2
+                                          dioxins       0.00      0.00      0.00         1
+                      e 425 - konjac unauthorised       1.00      0.40      0.57         5
+                        eggs and products thereof       0.64      0.68      0.66        31
+                                    enteroviruses       0.00      0.00      0.00         4
+                                 escherichia coli       0.82      0.97      0.89        60
+                        fish and products thereof       0.00      0.00      0.00         6
+                                   foreign bodies       0.00      0.00      0.00         5
+                                   glass fragment       0.42      0.73      0.53        11
+                                        haloxyfop       0.00      0.00      0.00         1
+                                         hazelnut       0.00      0.00      0.00         6
+                                     heavy metals       1.00      0.33      0.50         6
+                           high content of copper       0.00      0.00      0.00         1
+                          high content of cyanide       1.00      1.00      1.00         1
+                              improper conditions       0.00      0.00      0.00         4
+                               incorrect labeling       0.00      0.00      0.00         5
+                           incorrect use by dates       1.00      0.33      0.50         3
+                                          insects       0.00      0.00      0.00         7
+                                inspection issues       0.33      0.93      0.49        15
+             insufficient labelling/documentation       0.00      0.00      0.00         4
+                         labelling/misdescription       0.33      0.29      0.31         7
+                           listeria monocytogenes       0.82      0.98      0.90       123
+                                     listeria spp       0.00      0.00      0.00         2
+                                   metal fragment       0.29      0.71      0.41        24
+                    microbiological contamination       0.00      0.00      0.00         2
+                        milk and products thereof       0.58      0.95      0.72       111
+                                      misbranding       0.00      0.00      0.00         1
+                                   misdescription       0.00      0.00      0.00         4
+                                      mislabelled       0.00      0.00      0.00         3
+                                           moulds       0.00      0.00      0.00         7
+                     mustard and products thereof       0.86      0.86      0.86        14
+                                       novel food       0.00      0.00      0.00         1
+                                             nuts       0.00      0.00      0.00         6
+                                       ochratoxin       0.00      0.00      0.00         2
+                                   organochlorine       0.00      0.00      0.00         1
+                                            other       0.27      0.42      0.33        24
+                             other not classified       0.50      0.17      0.25         6
+          other not classified biological hazards       0.00      0.00      0.00         1
+            other not classified chemical hazards       0.00      0.00      0.00         3
+  other not classified hazards for foreign bodies       0.00      0.00      0.00         3
+                                 packaging defect       0.00      0.00      0.00         5
+                                             pahs       0.00      0.00      0.00         3
+       paralytic shellfish poisoning (psp) toxins       0.00      0.00      0.00         1
+                                          patulin       0.00      0.00      0.00         4
+                     peanuts and products thereof       0.83      0.83      0.83        41
+                                        pecan nut       0.00      0.00      0.00         6
+                                   pieces of wood       0.00      0.00      0.00         1
+                                    pistachio nut       0.00      0.00      0.00         1
+                                 plastic fragment       0.42      0.79      0.55        38
+                 polycyclic aromatic hydrocarbons       0.00      0.00      0.00         1
+                    poor or insufficient controls       0.00      0.00      0.00         2
+                                       processing       0.00      0.00      0.00        11
+                                 rubber fragments       0.00      0.00      0.00         6
+                                       salmonella       0.86      0.92      0.89       110
+                sesame seeds and products thereof       1.00      0.17      0.29         6
+                    soybeans and products thereof       0.63      0.77      0.70        31
+                    specified risk material (srm)       0.00      0.00      0.00         1
+                                         spoilage       0.00      0.00      0.00         7
+                       staphylococcal enterotoxin       0.00      0.00      0.00         1
+                                   staphylococcus       0.00      0.00      0.00         3
+                                           stones       0.00      0.00      0.00         3
+                              sulphates/sulphites       0.00      0.00      0.00         3
+                                  sulphur dioxide       1.00      0.33      0.50         6
+                    sulphur dioxide and sulphites       0.70      0.80      0.74        20
+too high content of fluorinated organic chemicals       0.00      0.00      0.00         2
+   too high content of tetrahydrocannabinol (THC)       0.00      0.00      0.00         1
+                                            toxin       0.00      0.00      0.00         5
+                      unauthorised colour sudan 4       0.00      0.00      0.00         1
+                              unauthorised import       0.00      0.00      0.00         3
+                            unauthorised operator       0.00      0.00      0.00         1
+               unauthorised placing on the market       0.00      0.00      0.00         2
+            unauthorised substance ethylene oxide       0.79      1.00      0.88        11
+                              undeclared additive       0.00      0.00      0.00         3
+                           undeclared constituent       0.00      0.00      0.00         1
+                                       vibrio spp       0.00      0.00      0.00         1
+                                            virus       0.00      0.00      0.00         3
+                                           walnut       1.00      0.11      0.20         9
+
+                                         accuracy                           0.65      1010
+                                        macro avg       0.19      0.17      0.16      1010
+                                     weighted avg       0.55      0.65      0.58      1010
+F1 Score: 0.165

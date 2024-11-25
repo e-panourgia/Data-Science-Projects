@@ -1,0 +1,29 @@
+Classification Report for Random Classifier (product-category):
+                                                   precision    recall  f1-score   support
+
+                              alcoholic beverages       0.00      0.00      0.00         9
+                      cereals and bakery products       0.11      0.04      0.06       133
+     cocoa and cocoa preparations, coffee and tea       0.00      0.00      0.00        37
+                                    confectionery       0.10      0.10      0.10        41
+dietetic foods, food supplements, fortified foods       0.00      0.00      0.00        28
+                                    fats and oils       0.00      0.00      0.00         4
+                                   feed materials       0.00      0.00      0.00         1
+                   food additives and flavourings       0.00      0.00      0.00         1
+                           food contact materials       0.00      0.00      0.00         2
+                            fruits and vegetables       0.20      0.10      0.13       110
+                                 herbs and spices       0.00      0.00      0.00        25
+                            honey and royal jelly       0.02      0.33      0.04         3
+                                ices and desserts       0.08      0.06      0.07        47
+                     meat, egg and dairy products       0.19      0.03      0.05       303
+                          non-alcoholic beverages       0.03      0.03      0.03        35
+                     nuts, nut products and seeds       0.04      0.05      0.04        42
+                       other food product / mixed       0.00      0.00      0.00        13
+                                         pet feed       0.00      0.00      0.00         5
+                       prepared dishes and snacks       0.04      0.03      0.03        73
+                                          seafood       0.02      0.02      0.02        52
+             soups, broths, sauces and condiments       0.06      0.07      0.06        46
+                                sugars and syrups       0.00      0.00      0.00         0
+
+                                         accuracy                           0.04      1010
+                                        macro avg       0.04      0.04      0.03      1010
+                                     weighted avg       0.11      0.04      0.05      1010
