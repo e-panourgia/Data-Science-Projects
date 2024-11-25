@@ -66,7 +66,7 @@ python -m ipykernel install --user --name=venv --display-name "Python (venv)"
 | Input       | Jupyter Notebook      | Output     |
 |----------------|----------------|----------------|
 | data/data_augmented__nlp_incidents_train.csv  | augmented_training_process.ipynb | reports/ , augmented_sumission/|
-| data/data_augmented__nlp_incidents_train.csv  | initila_training_process.ipynb | reports/ initial_submission/|
+| data/data_nlp_incidents_train.csv  | initila_training_process.ipynb | reports/ initial_submission/|
 
 
 Note: The folder `reports` cotanins the analytical classifcagion report per label and the overall valculated maro avarage f1 score per label (hazard, product, hazard-cateory, product-category).
