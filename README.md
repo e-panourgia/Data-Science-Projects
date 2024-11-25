@@ -97,3 +97,15 @@ Note: The folder `reports` cotanins the analytical classifcagion report per labe
 
 - `From the table above, it is obcious that the "best" scores in both subtask 1 and sub task 2 is X-Boost with input the text`.
 - Furthermore, it seems that across all scores per title and text, text (te) scores are equal or higher than title (ti).
+
+### Limitations - Difiiculties 
+- In the given time, we could not try Oversampling Methods (like `SMOTE`), as SMOTE in Combination with TF-Idf requires resources (time and memory). 
+- We needed to restrict some paramaters empirically to run the algorythms in the limited time of the deadline. 
+    - For example, for logistic regression at the beggining we tried to approach the training process of the paper [Paper](https://aclanthology.org/2024.findings-acl.459.pdf) where use one-vs-all classification, but in practice, locally, in combiantions with TF-idf where we have high number in `max_features` it requiremed much time to run locally, so we used multinomial logistic.
+    - In other words, many parameters adapted for memory and time limitations after empirical trials. 
+
+### Future Work 
+- Run all models for the initial csv instead of the augmented one. 
+- Apply Overasample methods like `SMOTE` 
+- Try diamensionality reduction techniques like embeddings. 
+- Run hyperparameter tuning for more parameters (but is it is a time consuming process).
