@@ -71,15 +71,11 @@ python -m ipykernel install --user --name=venv --display-name "Python (venv)"
 
 ### Table based on `Augmented Data` for SubTask 1 , SubTask 2
 - Guide to Reading the Table Below (Rows):
-    - To help interpret the table, the following abbreviations are provided:  
-        - `LR`: Refers to **Logistic Regression**.  
-        - `RF`: Refers to **Random Forest**.  
-        - `XB`: Refers to **XGBoost**.  
-        - `ti`: Represents **title**.  
-        - `te`: Represents **text**. 
-
+    - To help interpret the table, the following information are provided: 
+        - First two rows represent the baseline models.
+        - The remaning ones the tarditional and advances models for both "Title" and "Text" as input.
 - Guide to Reading the Table Below (Columns):
-    - To help interpret the table, the following abbreviations are provided:  
+    - To help interpret the table, the following information are provided:  
         - First column has the custom competition score for the sub task (`ST1`) that is Text classification for food hazard prediction, predicting the type of hazard and product.
         - Second column has the custom competition score for the sub task (`ST2`) that is Food hazard and product “vector” detection, predicting the exact hazard and product.
 
