@@ -27,40 +27,41 @@ pip install ipykernel
 python -m ipykernel install --user --name=venv --display-name "Python (venv)"
 ``` 
 - Alternatively, dowload them with the comannd !pip install NAMES_OF_NEEDED_LIBRARIES 
-    - E.G. 
     ```bash 
     !pip install numpy pandas scikit-learn xgboost joblib nltk imblearn deep-translator langid matplotlib seaborn
     ```
 - Usage of `Python 3.10.13` 
 
-## Firstly it will mentioned teh data exploration and preprocess part.
+## Data Exploartion / Preprocess 
 
-### Data
-- `data/incidents_train.csv` : Contains the initial dataframe for training. 
-- `data/incidents.csv` : Containes unlabeled data of teh competition 
-- `data_augmented__nlp_incidents_train.csv`: transformed dataframe with data augmented and basic nlp preprocess. This will be used for the training process as input in the jupyter  `training_process.ipynb`
-- `data_nlp_incidents_train.csv`: tarnsformed dataframe removel duplicated rows and applied basic nlp preprocess (this dataset **don't**) ontain synthetic data (based on synionyms and random removel of words).
-- 
+### Data 
+- `data/incidents_train.csv`: The initial dataset used for training purposes.  
+- `data/incidents.csv`: Contains unlabeled competition data with basic NLP preprocessing applied to the `title` and `text` columns (e.g., lowercasing, stemming, etc.).  
+- `data/data_augmented__nlp_incidents_train.csv`: A transformed dataset with augmented data and basic NLP preprocessing, used as input for the training process in `augmented_training_process.ipynb`.  
+- `data/data_nlp_incidents_train.csv`: A transformed dataset with duplicate rows removed and basic NLP preprocessing applied. This dataset **does not** include synthetic data generated through techniques like synonym replacement or random word removal.  
+- `data/incidents_unlabeled_without_nlp_preprocess.csv`: The unlabeled competition data without any NLP preprocessing applied to the `title` and `text` columns.  
 
 ### Data Exporation / Preprocess 
-- `data_exploration.ipynb`: Explore columns , distributions of Data. Basic Data Exploration. 
-- `translate.ipynb`: Apply Google Translate to not English sentences (finally useless due to extremely low valuw symantic)
-- `data-preprocess-augmented.ipynb`: Apply data augmentic strategy to craete synthetic data with usage of synonyms and randomeness. Furtherre. applied basic NLP preproces (tokenization, stemmig, removeal numbers, punctuations etc.)
-- `data-preprocess-intiial.ipynb`: Apply basic NLP preproces (tokenization, stemmig, removeal numbers, punctuations etc.) and removal of duplicated rows.
+- `data_exploration.ipynb`: Performs basic data exploration, including column analysis and distribution visualization.  
+- `translate.ipynb`: Utilizes Google Translate to process non-English sentences (ultimately deemed ineffective due to limited semantic value).  
+- `data-preprocess-augmented.ipynb`: Implements data augmentation strategies to generate synthetic data using synonyms and randomness. Additionally, applies basic NLP preprocessing (e.g., tokenization, stemming, removal of numbers, punctuation, etc.).  
+- `data-preprocess-initial.ipynb`: Applies basic NLP preprocessing (e.g., tokenization, stemming, removal of numbers, punctuation, etc.) and eliminates duplicate rows from the dataset.  
+
 
 | Input       | Jupyter Notebook      | Output     |
 |----------------|----------------|----------------|
-| data/incidents_train.csv | data-preprocess-augmented.ipynb | - |
+| data/incidents_train.csv | data_exploration.ipynb | - |
 | data/incidents_train.csv |translate.impynb| - |
-| data/incidents_train.csv | data-preprocess.ipynb| data/data_augmented__nlp_incidents_train.csv |
-| data/incidents_train.csv | data-preprocess-initial.ipynb | - |
-| data/incidents_train.csv | data-preprocess.ipynb| data/data_nlp_incidents_train.csv |
+| data/incidents_train.csv | data-preprocess-augmented.ipynb | data_augmented__nlp_incidents_train.csv |
+| data/incidents_train.csv, incidents_unlabeled_without_nlp_preprocess.csv | data-preprocess-initial-data.ipynb| data/data_nlp_incidents_train.csv,  incidents.csv|
 
-## Benchmark Analysis and Training process with usage of traditional and advanced ML algorythms
-- `augmented_training_process.ipynb` contains training based on the augmented dataset (with the syntetic data). 
-- `initial_training_process.ipynb` contains training based on the initial dataset with basic nlp preprocess.
-- the folders `reports` cotanins herarhically the classification reports per  text titles per ML Algorythm.
-- the folders `augmented_sumission/` (based on augmented data) ans `initial_submission/` (based on initial data with basic NLP Preprocess) contains the predictions of our best models.
+## Benchmark Analysis 
+- `augmented_training_process.ipynb`: Contains the training process based on the augmented dataset, which includes synthetic data.  
+- `initial_training_process.ipynb`: Contains the training process based on the initial dataset with basic NLP preprocessing.  
+- `augmented_submission/`: Directory containing predictions for the competition's unlabeled data, generated using the best models trained on the augmented dataset.  
+- `initial_submission/`: Directory containing predictions for the competition's unlabeled data, generated using the best models trained on the initial dataset with basic NLP preprocessing.  
+- `reports_augmented/`: Directory hosting classification evaluation reports generated from the training process in `augmented_training_process.ipynb`.  
+- `reports_initial/`: Directory hosting classification evaluation reports generated from the training process in `initial_training_process.ipynb`.  
 
 
 | Input       | Jupyter Notebook      | Output     |
@@ -68,78 +69,91 @@ python -m ipykernel install --user --name=venv --display-name "Python (venv)"
 | data/data_augmented__nlp_incidents_train.csv  | augmented_training_process.ipynb | reports/ , augmented_sumission/|
 | data/data_nlp_incidents_train.csv  | initila_training_process.ipynb | reports/ initial_submission/|
 
+### Table based on `Augmented Data` for SubTask 1 , SubTask 2
+- Guide to Reading the Table Below (Rows):
+    - To help interpret the table, the following abbreviations are provided:  
+        - `LR`: Refers to **Logistic Regression**.  
+        - `RF`: Refers to **Random Forest**.  
+        - `XB`: Refers to **XGBoost**.  
+        - `ti`: Represents **title**.  
+        - `te`: Represents **text**. 
 
-Note: The folder `reports` cotanins the analytical classifcagion report per label and the overall valculated maro avarage f1 score per label (hazard, product, hazard-cateory, product-category).
+- Guide to Reading the Table Below (Columns):
+    - To help interpret the table, the following abbreviations are provided:  
+        - First column has the custom competition score for the sub task (`ST1`) that is Text classification for food hazard prediction, predicting the type of hazard and product.
+        - Second column has the custom competition score for the sub task (`ST2`) that is Food hazard and product “vector” detection, predicting the exact hazard and product.
 
-**Key Notw** Because to impelement with desipline the benchmark analysis bearing in mind that I had to run two times all models for each dataset that is augmented dataset and initial dataset having the intial data with basic nlp preprocess only, the training jupyter `augmented_training_process` has more comments in comparison to `initila_training_process`, so read it firstly, as many things are similar in intiial data too. We made it to save time. 
-
-### Table based on `Augmented Data` with sub tasks custom evaluation for all models for all input s 
-- Notes for reading teh below tables 
-    - Note 1: 
-        - `LR` = (meaning) `Logistic Regresion`
-        - `RF` = (meaning) `Random Forest`
-        - `XB` = (menaing) `X-Boost`
-        - ti = (meaning) title
-        - te = (meaning) text 
-
-    - For example, LD-ti = (meaning) Logistic Regression as model and title as input.  
-
-    - Note 2: The SemEval-Task combines two sub-tasks:
-        - (ST1) Text classification for food hazard prediction, predicting the type of hazard and product.
-        - (ST2) Food hazard and product “vector” detection, predicting the exact hazard and product.
-
-    - Note 3: 
-        - During Benchmark Analysis we used TF-idf for all of the aforementioned models.
-
-    - Note 4 : 
-        - Random and Majority Classifier being our baselines, they dont have defined inpute (ti or te) as they are independent of X.
+- **Note:** `Random` and `Majority` classifiers are used as baselines. These are not followed by `ti` or `te` as they are independent of input type.  
 
 
-- `all sub taks` menaing sub task 1 and sub task 2 of the competition 
-- `all models` meaning `Logistic Regresiion`, `Random Forest` amd `X-Boost`
-- `all inputs` meaning `title` , and `text`
+|     | `Sub Task 1`     | `Sub Task 2`    |
+|--------------|--------------|--------------|
+| `Random Baseline`| 0.057 | 0.003 |
+| `Majority Baseline`| 0.031 | 0.001 |
+| `LogisticRegression Title` | 0.690 | 0.425 |
+| `Random Forest Title` | `0.760` | `0.721` |
+| `X-Boost Title`| 0.741 | 0.647 |
+| `LogisticRegression Text` | 0.695 | 0.427 |
+| `Random Forest Tetx` | 0.784 | 0.758 |
+| `X-Boost Text`| `0.814` | `0.759` |
+
+- With yellow color we hve the classifiers outperforms regarding the custom evalution scores (for st1, st2). 
+- In both cases of input ("title" and "text") X-Bosst wins. Overall, the classifiers has better performance in the "text" input. Furtehrmore, all classifiers outperform the baselines meaning that they predict better than randomness and the frequenct value (mode).
+
+### Table based on `Initial Data` for SubTask 1 and SubTask 2
 
 
-|       | **SubTask 1 Custom Score**    | **SubTask 2 Custom Score**     |
-|---------------|---------------|---------------|
-| **Random** | ~0.057| ~0.003 |
-| **Majoriy** | ~0.0031 | ~0.001 |
-| **LR-ti** | ~0.68 | ~0.42 |
-| **RF-ti** | ~0.76 | ~0.72 |
-| **XB-ti** | ~0.74 | ~0.64 |
-| **LR-te** | ~0.69 | ~0.42 |
-| **RF-te** | ~0.78 | ~0.75 |
-| **XB-te** | ~`0.81`| ~`0.75` |
+|     | `Sub Task 1`     | `Sub Task 2`    |
+|--------------|--------------|--------------|
+| `Random Baseline`| 0.051 | 0.002 |
+| `Majority Baseline`| 0.039 | 0.002 |
+| `LogisticRegression Title` | 0.39 | 0.13 |
+| `Random Forest Title` | `0.50` | `0.32` |
+| `X-Boost Title`| `0.54` | `0.31` |
+| `LogisticRegression Text` | 0.36 | 0.11 |
+| `Random Forest Text` | 0.42 | 0.26 |
+| `X-Boost Text`| `0.51`| `0.33` |
 
-- Note: For `Augmented Data` the best  model is X-Boost with Text as input and with hyperparameter tuning (using Greed Search) only for the best models we defined taht for all sub classefiers per label the best `max_depth` is 8 instead of 6,7. During greed search , we used Cross validation k = 3. 
+- With yellow color we hve the classifiers outperforms regarding the custom evalution scores (for st1, st2).
+- based on the initial data we have three classifers with close custom compettion scores for both "titile" and "text" input. Again X-Boost has key dominance. Furtehrmore, all classifiers outperform the baselines meaning that they predict better than randomness and the frequenct value (mode).
 
-### Table based on `Initial Data only basic NLP Preprocess` with sub tasks custom evaluation for all models for all input s 
+### Important Comment / Mistake Affected the Overall Performance of the  Assignment
 
-|       | **SubTask 1 Custom Score**    | **SubTask 2 Custom Score**     |
-|---------------|---------------|---------------|
-| **Random** | ~0.051| ~0.002 |
-| **Majoriy** | ~ 0.039 | ~0.002 |
-| **LR-ti** | ~0.439| ~0.121 |
-| **RF-ti** | ~0.53 | ~0.28 |
-| **XB-ti** | ~0.55 | ~0.27 |
-| **LR-te** | ~0.41 | ~0.10 |
-| **RF-te** | ~0.51 | ~0.24 |
-| **XB-te** | ~`0.61`| ~`0.28` |
+- Unfortunately, we must acknowledge that during the process, a significant issue arose, leading to a lower-than-expected score. We sincerely apologize for this oversight, which we only realized after several days. As a result, we were unable to rerun the entire process in the correct sequence or properly adjust the parameters of the TF-IDF and models.  
+- More specifically, instead of first conducting the benchmark analysis on the initial dataset and then on rerunnning the tuned models stemming from the initial data to the NLP-preprocessed dataset (which we intuitively assumed would yield slightly better performance), and then on the augmented datset, too, we mistakenly began with the augmented dataset. This dataset was later identified as flawed due to "fake" synthetic data. Unfortunately, we only realized this issue after several days, when we submitted the predictions of the unlabeleld dataset to the competition platform and we received a score quite close to 0. 
+- The correct pipeline logic would be to run the raw data, then the nlp preprocessed data and then the augmented data all of them on the same tuned models stemming from the raw data and compare the results.
+- Due to time constraints, we mistakenly assumed the initial dataset was the augmented one. The manual process of tuning the models based on the correct raw data was time-intensive, and we lacked the time to complete it.  
+    - This explains why the individual evaluation reports show low scores for the simple nlp preprocess data.  
+- We sincerely apologize for this critical oversight, which significantly impacted overall performance.  
+- Nevertheless, we have made an effort to thoroughly explain the reasoning behind our decision-making process.  
 
-- Note for `Initial Data` the best model is again X-Boost for text input. 
+### Decision making Strategy during BenchMark Analysis / Methodology In short 
+- During teh scope of benchmark  analysis we decied to analyse `Logistic Regression` (based on linearity), `Random Forest` (non-linear relations) and `X-Boost` (gradiet-boosting algorythm). 
+- Firlty,we focus on "title" as input. 
+    - We applied hyperparameter tuning manually (as a systematic way using either greed search or a modern MLOp tool like `Optuna` would required much time bearing in mind tha we have 3 models , running it 2 times for each input "title" and "text" (and applying cross validation), so we tried to manually tune the algorythms based on teh following diamensions : 
+        - a) improve the custom evalution metric of the competition for both sub task 1 and sub task 2. In other words, we used common evalution metric acroiss all algorythms in order to be more "fair" the comparison. 
+        - b) adapt the hyperparamters based on teh nature of teh problem e.g. our problem is `multiclass` so we reflected it in logistic regression with the parameter `multinomial` and in x-boost with the parameter `multi:softmax` and for the evaluation with the parameter `mlogloss`.
+        - c) adapt the parameetr in specific scope as we had memory time limitations. e.g.  for tf-idf vectorization process we had to limit max_features parameter, or for logistic regression with hparameter  `ovr` (One-Vs-All) would have extreemly high computational complexity.
+        - d) For having more "fair" comparison we used the same vectorization technique tf-idf. Manually we tries to adapth the max_feature (trying 2000 and 5000 and holding the best one that offers better custome scores per sub task).
 
-- `From the table above, it is obcious that the "best" scores in both subtask 1 and sub task 2 is X-Boost with input the text`.
-- Furthermore, it seems that across all scores per title and text, text (te) scores are equal or higher than title (ti).
+- Note 1: Despite the fact that we our evalution based on the `custom competition metrics for sub task 1 and sub task 2`, we printed the classification evalution reports, too. These offer us the potential to have an overview of the average macro f score beingpart of the custom mentric evalution and in depth undestanding about the classes in which the algorythm has low f1 score (low precision and recall), this insight could be leveraged to group these categories to a new category e.g. "Other" in teh scope of trying to improve the performance of teh model. Gnerally, we want high f1 sores per all classes but this is unvoidable due to the classes having low number of instances. 
 
-### Limitations - Difiiculties 
-- In the given time, we could not try Oversampling Methods (like `SMOTE`), as SMOTE in Combination with TF-Idf requires resources (time and memory). 
-- We needed to restrict some paramaters empirically to run the algorythms in the limited time of the deadline. 
-    - For example, for logistic regression at the beggining we tried to approach the training process of the paper [Paper](https://aclanthology.org/2024.findings-acl.459.pdf) where use one-vs-all classification, but in practice, locally, in combiantions with TF-idf where we have high number in `max_features` it requiremed much time to run locally, so we used multinomial logistic.
-    - In other words, many parameters adapted for memory and time limitations after empirical trials. 
+- Note 2: We applied systematic hyperparametr tuning technoques only for the best algorythm after benchmark analysis. Of course, this is more prfessional approach but due to time and memory limitations we could not apply it in teh scope of benchmark analysis. 
+
+- Note 3: Regardign the diffrent input "title" and "text" we only manually tried diffrent hyperparameter in tf-idf for the parameter `max_feature` but we did not observe better scores in the custom evaluation scores of teh competition for teh sub tasks. So, we simply re-run the same algorythms via changing teh input. 
 
 ### Future Work 
-- Run all models for the initial csv instead of the augmented one. 
-- Apply Overasample methods like `SMOTE` 
-- Try diamensionality reduction techniques like embeddings. 
-- Run hyperparameter tuning for more parameters (but is it is a time consuming process).
-- Cross Validation for more robostness in evaluation metrics.
+A) Re-run the whole proces with the correct order meaning : `nlp preprocess data` and tune the models (if I had time I would tuned oth models and tf-idf hyperparameters systematically using MLOp optuna or greed search)
+
+B) For the hyperparamters defined in A) Re-run via changing only the input dataframe having the **raw** data 
+
+C) Re-run via changing only the input dataframe having the **augmented** data 
+
+D) Regarding achieving betetr scores, we could try tf-idf (more max features) in combination with PCA (reduce diamensionality of input space stemming from tf-idf), more hyperparameter tuning, regrouping classes with low f1 score in classificatio nreport, and maybe oversampling methos like SMOTE insteadd of our own augmented data.  
+
+### Lifeboard Comments 
+- Due to the fake nature of our augmented data having a score extrleme close to 0 (0.00..) we hold as best scores the scores stemmign from the nlp preprocessed data, and having as algorythm `X-boost` with input `text`.
+    
+    - Scores Competition : 
+    - Sub Task 1 : `0.0710` (stemming from competition score data 27 November 2024) 
+    - Sub Task 2 : `0.0057` (stemming from competition score data 27 November 2024)
