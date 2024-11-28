@@ -1,0 +1,18 @@
+Classification Report for hazard-category_text:
+                                precision    recall  f1-score   support
+
+                     allergens       0.95      0.98      0.96       371
+                    biological       0.94      0.98      0.96       344
+                      chemical       0.86      0.86      0.86        57
+food additives and flavourings       1.00      0.20      0.33         5
+                foreign bodies       0.89      0.99      0.94       111
+                         fraud       0.82      0.62      0.71        74
+                     migration       0.00      0.00      0.00         1
+          organoleptic aspects       0.67      0.20      0.31        10
+                  other hazard       0.57      0.50      0.53        26
+              packaging defect       1.00      0.27      0.43        11
+
+                      accuracy                           0.92      1010
+                     macro avg       0.77      0.56      0.60      1010
+                  weighted avg       0.91      0.92      0.91      1010
+F1 Score: 0.603
