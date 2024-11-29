@@ -66,8 +66,8 @@ python -m ipykernel install --user --name=venv --display-name "Python (venv)"
 
 | Input       | Jupyter Notebook      | Output     |
 |----------------|----------------|----------------|
-| data/data_augmented__nlp_incidents_train.csv  | augmented_training_process.ipynb | reports/ , augmented_sumission/|
-| data/data_nlp_incidents_train.csv  | initila_training_process.ipynb | reports/ initial_submission/|
+| data/data_augmented__nlp_incidents_train.csv  | augmented_training_process.ipynb | reports_augmented/ , augmented_sumission/|
+| data/data_nlp_incidents_train.csv  | initila_training_process.ipynb | reports/_inital initial_submission/|
 
 ### Table based on `Augmented Data` for SubTask 1 , SubTask 2
 - Guide to Reading the Table Below (Rows):
