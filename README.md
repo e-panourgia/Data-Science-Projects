@@ -187,8 +187,11 @@ D) Select the Best Dataset
 1. **Increase TF-IDF Features with Dimensionality Reduction**  
    - Experiment with increasing `max_features` in TF-IDF and applying **Principal Component Analysis (PCA)** to reduce the dimensionality of the resulting feature space. PCA is crucial if we increase max_features for memory resources.
 
-2. **More Hyperparameter Tuning**  
-   - Explore additional hyperparameter configurations for models and vectorization methods to achieve optimal performance.
+2. **More Hyperparameter Tuning** and Regularization
+   - Explore additional hyperparameter configurations for models and vectorization methods to achieve optimal performance.  - Add Regularization Parameters (Regularization parameters in machine learning models help improve their performance and generalizability by controlling overfitting and complexity.)
+        - **XGBoost**: `lambda` (L2), `alpha` (L1), `gamma` (tree split control), `max_depth`, `subsample`, `colsample_bytree`.
+        - **Logistic Regression**: `penalty` (`l1`, `l2`, `elasticnet`), `C` (inverse regularization strength).
+        - **Random Forest**: `max_depth`, `min_samples_split`, `min_samples_leaf`, `max_features`, `bootstrap`, `n_estimators`.
 
 3. **Class Regrouping**  
    - Analyze the classification report to identify classes with low F1 scores and consider regrouping or merging them to improve overall performance.
