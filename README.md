@@ -205,6 +205,15 @@ D) Select the Best Dataset
 ### Lifeboard Results 
 - Due to the fake nature of our augmented data having a score extrleme close to 0 (0.00..) we hold as best scores the scores stemmign from the nlp preprocessed data, and having as algorythm `X-boost` with input `text`.
     
-    - Scores Competition : 
+    - Scores Competition Initial Trial XB Text: 
     - Sub Task 1 : `0.0710` (stemming from competition score data 27 November 2024) 
     - Sub Task 2 : `0.0057` (stemming from competition score data 27 November 2024)
+
+
+    - Scores Competition Voting Classifier Title (XB-RF) Trial: 
+    - Sub Task 1 : `0.053` (stemming from competition score data 22 December 2024) 
+    - Sub Task 2 : `0.0055` (stemming from competition score data 22 December 2024)
+
+    - Scores Competition Voting Classifier Text (XB-RF) Trial: 
+    - Sub Task 1 : `0.0774` (stemming from competition score data 22 December 2024) 
+    - Sub Task 2 : `0.0055` (stemming from competition score data 22 December 2024)
