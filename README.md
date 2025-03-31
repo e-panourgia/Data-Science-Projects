@@ -7,7 +7,7 @@ This repository presents a curated collection of applied data science projects, 
 - **Food Hazard Detection** – [Food](Food):  
   This project contains code developed for the [Food Hazard Detection Competition](https://food-hazard-detection-semeval-2025.github.io/). It focuses on leveraging natural language processing and machine learning methods to detect potential food-related hazards from textual data.
 
-- **City Segmentation via Clustering** – [Clustering](Clustering):  
+- **City Segmentation via Clustering** – [Clustering](clustering):  
   This notebook explores the [GSV-Cities dataset](https://www.kaggle.com/datasets/amaralibey/gsv-cities) from Kaggle. The objective is to apply unsupervised learning techniques, particularly clustering algorithms, to identify patterns and segment urban areas based on geospatial and visual data attributes.
 
 - **Proverb Analysis** – [Proverb](proverb):  

@@ -5,7 +5,7 @@ This Repository conatins coode related to the competition hosted on [Competition
 ### Python Packages Requirements && Project Instalation 
 - Clone the Repository via running to the terminal and go to the main folder of the Project: 
 ```bash 
-    git clone git@github.com:e-panourgia/Food-Hazard-Detection-Challenge.git
+    git clone git@github.com:e-panourgia/Data-Science-Projects.git
     cd Food-Hazard-Detection-Challenge
 ```
 - This project depends on several Python libraries for data manipulation, machine learning, natural language processing, visualization, and more. The required libraries are listed in the `requirements.txt` file.
